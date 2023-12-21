@@ -41292,24 +41292,24 @@
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5712,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
+      "kind": "StringLiteral",
+      "offset": 5902,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5646,
+      "offset": 5909,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5668,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5698,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
