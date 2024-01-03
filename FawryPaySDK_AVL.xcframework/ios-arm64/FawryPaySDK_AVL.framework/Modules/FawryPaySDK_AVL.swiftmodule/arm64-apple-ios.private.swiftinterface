@@ -213,6 +213,8 @@ public protocol ViewModelPressible {
 @objc @_inheritsConvenienceInitializers public class FawrySDKConfigurationManager : ObjectiveC.NSObject {
   public static let shared: FawryPaySDK_AVL.FawrySDKConfigurationManager
   public func loadConfigurations(with baseURL: Swift.String? = nil)
+  public func keyboardConfigrations()
+  public func setAppLanguage(lang: Swift.String?)
   public func getServerAddress() -> Swift.String
   public func getAppLanguage() -> Swift.String
   @objc override dynamic public init()

@@ -9056,6 +9056,60 @@
           },
           {
             "kind": "Function",
+            "name": "keyboardConfigrations",
+            "printedName": "keyboardConfigrations()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FawryPaySDK_AVL0A23SDKConfigurationManagerC21keyboardConfigrationsyyF",
+            "mangledName": "$s15FawryPaySDK_AVL0A23SDKConfigurationManagerC21keyboardConfigrationsyyF",
+            "moduleName": "FawryPaySDK_AVL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAppLanguage",
+            "printedName": "setAppLanguage(lang:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FawryPaySDK_AVL0A23SDKConfigurationManagerC14setAppLanguage4langySSSg_tF",
+            "mangledName": "$s15FawryPaySDK_AVL0A23SDKConfigurationManagerC14setAppLanguage4langySSSg_tF",
+            "moduleName": "FawryPaySDK_AVL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getServerAddress",
             "printedName": "getServerAddress()",
             "children": [
@@ -32400,6 +32454,13 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       }
@@ -32410,28 +32471,35 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Utilities\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 961,
+      "offset": 1011,
+      "length": 7,
+      "value": "\"lproj\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Utilities\/LocalizedString.swift",
+      "kind": "StringLiteral",
+      "offset": 1151,
       "length": 8,
       "value": "\"Target\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Utilities\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1009,
+      "offset": 1208,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Utilities\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1096,
+      "offset": 1332,
       "length": 8,
       "value": "\"Target\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Utilities\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1144,
+      "offset": 1380,
       "length": 2,
       "value": "\"\""
     },
@@ -32462,6 +32530,13 @@
       "offset": 547,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Extensions\/UITextFieldExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1031,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/ Loyalty Management\/Models\/VoucherSubmitionResponse.swift",
@@ -32963,294 +33038,294 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2781,
+      "offset": 3201,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 2835,
+      "offset": 3255,
       "length": 12,
       "value": "\"0123456789\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 2994,
+      "offset": 3414,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 3220,
+      "offset": 3640,
       "length": 55,
       "value": "\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ \""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3428,
+      "offset": 3848,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 3541,
+      "offset": 3961,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3567,
+      "offset": 3987,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3607,
+      "offset": 4027,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 3638,
+      "offset": 4058,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3659,
+      "offset": 4079,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3670,
+      "offset": 4090,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3761,
+      "offset": 4181,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3840,
+      "offset": 4260,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4499,
+      "offset": 4919,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4511,
+      "offset": 4931,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4563,
+      "offset": 4983,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4727,
+      "offset": 5147,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4791,
+      "offset": 5211,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4938,
+      "offset": 5358,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4941,
+      "offset": 5361,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 4951,
+      "offset": 5371,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4978,
+      "offset": 5398,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5030,
+      "offset": 5437,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5201,
+      "offset": 5608,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5212,
+      "offset": 5619,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5264,
+      "offset": 5671,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5435,
+      "offset": 5842,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5499,
+      "offset": 5906,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5655,
+      "offset": 6062,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5658,
+      "offset": 6065,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 5668,
+      "offset": 6075,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5695,
+      "offset": 6102,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5747,
+      "offset": 6154,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5849,
+      "offset": 6256,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5860,
+      "offset": 6267,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5887,
+      "offset": 6294,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5918,
+      "offset": 6325,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 6310,
+      "offset": 6717,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 6375,
+      "offset": 6782,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6419,
+      "offset": 6826,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6467,
+      "offset": 6874,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Credit Card\/CreditCardTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6522,
+      "offset": 6929,
       "length": 1,
       "value": "1"
     },
@@ -34096,169 +34171,176 @@
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19447,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19367,
+      "offset": 19543,
       "length": 7,
       "value": "\"total\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 20014,
+      "offset": 20190,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 20025,
+      "offset": 20201,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 21067,
+      "offset": 21243,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 21492,
+      "offset": 21668,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 21831,
+      "offset": 22007,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 21956,
+      "offset": 22132,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 22308,
+      "offset": 22484,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 22523,
+      "offset": 22699,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 22897,
+      "offset": 23073,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 23082,
+      "offset": 23258,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23677,
+      "offset": 23853,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23745,
+      "offset": 23921,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23789,
+      "offset": 23965,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23831,
+      "offset": 24007,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23895,
+      "offset": 24071,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 24092,
+      "offset": 24268,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 24208,
+      "offset": 24384,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 24317,
+      "offset": 24493,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 24423,
+      "offset": 24599,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 24767,
+      "offset": 24943,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 24822,
+      "offset": 24998,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 24870,
+      "offset": 25046,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 24920,
+      "offset": 25096,
       "length": 1,
       "value": "0"
     },
@@ -37240,21 +37322,21 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Custom Views\/Header Choose Method\/ChoosePaymentMethodHeader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1108,
+      "offset": 1088,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Custom Views\/Header Choose Method\/ChoosePaymentMethodHeader.swift",
       "kind": "FloatLiteral",
-      "offset": 1149,
+      "offset": 1129,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Custom Views\/Header Choose Method\/ChoosePaymentMethodHeader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1211,
+      "offset": 1191,
       "length": 1,
       "value": "1"
     },
@@ -38562,38 +38644,52 @@
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Helper Class\/Config Manager\/FawrySDKConfigurationManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1523,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Helper Class\/Config Manager\/FawrySDKConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1838,
+      "offset": 2073,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Helper Class\/Config Manager\/FawrySDKConfigurationManager.swift",
       "kind": "StringLiteral",
-      "offset": 2226,
+      "offset": 2461,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Helper Class\/Config Manager\/FawrySDKConfigurationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2255,
+      "offset": 2490,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Helper Class\/Config Manager\/FawrySDKConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2279,
+      "offset": 2514,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Helper Class\/Config Manager\/FawrySDKConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2321,
+      "offset": 2556,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Helper Class\/Config Manager\/FawrySDKConfigurationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2650,
+      "length": 4,
+      "value": "\"ar\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Saved Cards\/Views\/Controllers\/SavedCardsController.swift",
@@ -39977,16 +40073,114 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 1486,
+      "offset": 1734,
       "length": 9,
       "value": "\"%.2f %@\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1754,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 2121,
+      "offset": 2376,
       "length": 8,
       "value": "\"000000\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2762,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2806,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2859,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2905,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2955,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2997,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 3077,
+      "length": 9,
+      "value": "\"fffffff\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3313,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3362,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3415,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3465,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3508,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakUpTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3561,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
@@ -40929,35 +41123,35 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Receipt\/PaymentReceiptViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1359,
+      "offset": 1372,
       "length": 9,
       "value": "\"receipt\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Receipt\/PaymentReceiptViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1428,
+      "offset": 1441,
       "length": 6,
       "value": "\"done\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Receipt\/PaymentReceiptViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2378,
+      "offset": 2594,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Receipt\/PaymentReceiptViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3121,
+      "offset": 3337,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Receipt\/PaymentReceiptViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3530,
+      "offset": 3746,
       "length": 4,
       "value": "true"
     },
@@ -41124,190 +41318,232 @@
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
+      "kind": "StringLiteral",
+      "offset": 1489,
+      "length": 8,
+      "value": "\"amount\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
+      "kind": "StringLiteral",
+      "offset": 1576,
+      "length": 17,
+      "value": "\"beneficiaryName\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1578,
+      "offset": 1752,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1675,
+      "offset": 1849,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3166,
+      "offset": 3400,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "StringLiteral",
-      "offset": 3245,
+      "offset": 3479,
       "length": 14,
       "value": "\"fundMyWallet\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "StringLiteral",
-      "offset": 3345,
+      "offset": 3579,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3592,
+      "offset": 3826,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3626,
+      "offset": 3860,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3982,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4035,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4101,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4155,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3802,
+      "offset": 4675,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "StringLiteral",
-      "offset": 3870,
+      "offset": 4743,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3877,
+      "offset": 4750,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3911,
+      "offset": 4784,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "StringLiteral",
-      "offset": 3981,
+      "offset": 4854,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4016,
+      "offset": 4889,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "StringLiteral",
-      "offset": 4089,
+      "offset": 4962,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4272,
+      "offset": 5145,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4303,
+      "offset": 5176,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4614,
+      "offset": 5487,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "StringLiteral",
-      "offset": 4668,
+      "offset": 5541,
       "length": 12,
       "value": "\"0123456789\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "StringLiteral",
-      "offset": 4827,
+      "offset": 5700,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "StringLiteral",
-      "offset": 4956,
+      "offset": 5829,
       "length": 55,
       "value": "\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ \""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5180,
+      "offset": 6053,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "StringLiteral",
-      "offset": 5294,
+      "offset": 6167,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5324,
+      "offset": 6197,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5363,
+      "offset": 6236,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5712,
+      "offset": 6585,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "StringLiteral",
-      "offset": 5902,
+      "offset": 6775,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Payment Details Table Cells\/AVL Fields Cell\/AVLFieldsCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5909,
+      "offset": 6782,
       "length": 1,
       "value": "0"
     },
@@ -41441,167 +41677,167 @@
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "StringLiteral",
       "offset": 7528,
-      "length": 23,
-      "value": "\"Choose Payment Method\""
+      "length": 24,
+      "value": "\"Deposit to your wallet\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8310,
+      "offset": 8317,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "StringLiteral",
-      "offset": 8362,
+      "offset": 8369,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8466,
+      "offset": 8473,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8957,
+      "offset": 8964,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9316,
+      "offset": 9323,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9552,
+      "offset": 9559,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9610,
+      "offset": 9617,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "StringLiteral",
-      "offset": 10072,
+      "offset": 10081,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10121,
+      "offset": 10130,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10650,
+      "offset": 10659,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11019,
+      "offset": 11028,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "StringLiteral",
-      "offset": 11421,
+      "offset": 11430,
       "length": 19,
       "value": "\"send_notification\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "StringLiteral",
-      "offset": 11494,
+      "offset": 11503,
       "length": 9,
       "value": "\"scan_qr\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "StringLiteral",
-      "offset": 11930,
+      "offset": 11939,
       "length": 15,
       "value": "\"mobile_number\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12131,
+      "offset": 12140,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12191,
+      "offset": 12200,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "StringLiteral",
-      "offset": 12385,
+      "offset": 12394,
       "length": 13,
       "value": "\"Add Voucher\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "StringLiteral",
-      "offset": 12694,
+      "offset": 12703,
       "length": 10,
       "value": "\"userData\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "StringLiteral",
-      "offset": 13165,
+      "offset": 13180,
       "length": 20,
       "value": "\"Valu Customer Code\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13371,
+      "offset": 13386,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13431,
+      "offset": 13446,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13498,
+      "offset": 13513,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17077,
+      "offset": 17255,
       "length": 4,
       "value": "true"
     },
@@ -42637,42 +42873,49 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakupCellViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 335,
+      "offset": 337,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakupCellViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 714,
+      "offset": 742,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakupCellViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1400,
+      "offset": 1016,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakupCellViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1495,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakupCellViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1467,
+      "offset": 1562,
       "length": 8,
       "value": "\"ff5100\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakupCellViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1554,
+      "offset": 1649,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakupCellViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1696,
+      "offset": 1791,
       "length": 29,
       "value": "\"PaymentBreakUpTableViewCell\""
     },
@@ -43764,91 +44007,147 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
       "kind": "StringLiteral",
-      "offset": 1586,
+      "offset": 2442,
       "length": 8,
       "value": "\"016891\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
       "kind": "StringLiteral",
-      "offset": 1847,
+      "offset": 2752,
       "length": 8,
-      "value": "\"01914c\""
+      "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
       "kind": "StringLiteral",
-      "offset": 2105,
+      "offset": 3044,
       "length": 8,
-      "value": "\"016891\""
+      "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
       "kind": "StringLiteral",
-      "offset": 2363,
+      "offset": 3348,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
+      "kind": "StringLiteral",
+      "offset": 3641,
       "length": 8,
       "value": "\"ffd200\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
       "kind": "StringLiteral",
-      "offset": 2636,
+      "offset": 3912,
       "length": 8,
-      "value": "\"fafafa\""
+      "value": "\"016891\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
       "kind": "StringLiteral",
-      "offset": 2894,
+      "offset": 4199,
+      "length": 8,
+      "value": "\"016891\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
+      "kind": "StringLiteral",
+      "offset": 4501,
+      "length": 8,
+      "value": "\"016891\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
+      "kind": "StringLiteral",
+      "offset": 4769,
+      "length": 8,
+      "value": "\"01914c\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
+      "kind": "StringLiteral",
+      "offset": 5037,
+      "length": 8,
+      "value": "\"016891\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
+      "kind": "StringLiteral",
+      "offset": 5299,
+      "length": 8,
+      "value": "\"016891\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
+      "kind": "StringLiteral",
+      "offset": 5557,
+      "length": 8,
+      "value": "\"ffd200\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
+      "kind": "StringLiteral",
+      "offset": 5830,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
+      "kind": "StringLiteral",
+      "offset": 6088,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
       "kind": "StringLiteral",
-      "offset": 3149,
+      "offset": 6343,
       "length": 8,
       "value": "\"FFFFFF\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
       "kind": "StringLiteral",
-      "offset": 3406,
+      "offset": 6600,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
       "kind": "StringLiteral",
-      "offset": 3660,
+      "offset": 6854,
       "length": 8,
       "value": "\"ffd401\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
       "kind": "StringLiteral",
-      "offset": 3914,
+      "offset": 7108,
       "length": 8,
       "value": "\"016891\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
       "kind": "StringLiteral",
-      "offset": 4165,
+      "offset": 7359,
       "length": 8,
       "value": "\"016891\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
       "kind": "StringLiteral",
-      "offset": 4407,
+      "offset": 7601,
       "length": 10,
       "value": "\"فوري\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Launch Model\/Style.swift",
       "kind": "StringLiteral",
-      "offset": 4454,
+      "offset": 7648,
       "length": 7,
       "value": "\"Fawry\""
     },
@@ -46439,29 +46738,29 @@
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
       "offset": 8057,
-      "length": 21,
-      "value": "\"4242 4242 4242 4242\""
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
-      "offset": 8123,
-      "length": 7,
-      "value": "\"05\/23\""
+      "offset": 8104,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
-      "offset": 8164,
-      "length": 5,
-      "value": "\"123\""
+      "offset": 8140,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
-      "offset": 8210,
-      "length": 5,
-      "value": "\"123\""
+      "offset": 8183,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
@@ -46473,100 +46772,114 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8370,
+      "offset": 8340,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8397,
+      "offset": 8367,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8403,
+      "offset": 8373,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8408,
+      "offset": 8378,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8415,
+      "offset": 8385,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8488,
+      "offset": 8458,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8516,
+      "offset": 8486,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8522,
+      "offset": 8492,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8527,
+      "offset": 8497,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8605,
+      "offset": 8575,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8628,
+      "offset": 8598,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8634,
+      "offset": 8604,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8639,
+      "offset": 8609,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8646,
+      "offset": 8616,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8698,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8722,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
@@ -46577,386 +46890,372 @@
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8752,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8758,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8763,
+      "offset": 8733,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
-      "offset": 8969,
+      "offset": 8939,
       "length": 12,
       "value": "\"0123456789\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
-      "offset": 9128,
+      "offset": 9098,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
-      "offset": 9354,
+      "offset": 9324,
       "length": 55,
       "value": "\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ \""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9562,
+      "offset": 9532,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
-      "offset": 9675,
+      "offset": 9645,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9701,
+      "offset": 9671,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9740,
+      "offset": 9710,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
-      "offset": 9771,
+      "offset": 9741,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9792,
+      "offset": 9762,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9803,
+      "offset": 9773,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9850,
+      "offset": 9820,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9863,
+      "offset": 9833,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9890,
+      "offset": 9860,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9969,
+      "offset": 9939,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10155,
+      "offset": 10125,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10167,
+      "offset": 10137,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10219,
+      "offset": 10189,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10363,
+      "offset": 10333,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10427,
+      "offset": 10397,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10564,
+      "offset": 10534,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10567,
+      "offset": 10537,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
-      "offset": 10577,
+      "offset": 10547,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10604,
+      "offset": 10574,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
-      "offset": 10711,
+      "offset": 10681,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10794,
+      "offset": 10764,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10930,
+      "offset": 10900,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
-      "offset": 10936,
+      "offset": 10906,
       "length": 9,
       "value": "\"9818 00\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10994,
+      "offset": 10964,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11051,
+      "offset": 11021,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11097,
+      "offset": 11067,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11150,
+      "offset": 11120,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11191,
+      "offset": 11161,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11286,
+      "offset": 11256,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11344,
+      "offset": 11314,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11391,
+      "offset": 11361,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11445,
+      "offset": 11415,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11487,
+      "offset": 11457,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11539,
+      "offset": 11509,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11718,
+      "offset": 11688,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11729,
+      "offset": 11699,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11781,
+      "offset": 11751,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11932,
+      "offset": 11902,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11996,
+      "offset": 11966,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12142,
+      "offset": 12112,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12145,
+      "offset": 12115,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
-      "offset": 12155,
+      "offset": 12125,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12182,
+      "offset": 12152,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12234,
+      "offset": 12204,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12372,
+      "offset": 12342,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12383,
+      "offset": 12353,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12410,
+      "offset": 12380,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12441,
+      "offset": 12411,
       "length": 5,
       "value": "false"
     },
@@ -47376,49 +47675,49 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 12366,
+      "offset": 12513,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 12840,
+      "offset": 12987,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 13447,
+      "offset": 13594,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 14347,
+      "offset": 14494,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 14564,
+      "offset": 14711,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 14986,
+      "offset": 15133,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 16405,
+      "offset": 16552,
       "length": 4,
       "value": "true"
     },
@@ -47551,532 +47850,532 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2747,
+      "offset": 2941,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2886,
+      "offset": 3080,
       "length": 16,
       "value": "\"confirmPayment\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3125,
+      "offset": 3319,
       "length": 12,
       "value": "\"back_black\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3671,
+      "offset": 3865,
       "length": 15,
       "value": "\"payment_title\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3938,
+      "offset": 4132,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3943,
+      "offset": 4137,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7337,
+      "offset": 7531,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8467,
+      "offset": 8661,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8646,
+      "offset": 8840,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9463,
+      "offset": 9657,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9725,
+      "offset": 9919,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9826,
+      "offset": 10020,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10104,
+      "offset": 10298,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 10636,
+      "offset": 10830,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12085,
+      "offset": 12279,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12379,
+      "offset": 12573,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12439,
+      "offset": 12633,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15378,
+      "offset": 15572,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15606,
+      "offset": 15800,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15718,
+      "offset": 15912,
       "length": 14,
       "value": "\"fundMyWallet\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15735,
+      "offset": 15929,
       "length": 21,
       "value": "\"Business to provide\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15758,
+      "offset": 15952,
       "length": 21,
       "value": "\"Business to provide\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15781,
+      "offset": 15975,
       "length": 21,
       "value": "\"Business to provide\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15991,
+      "offset": 16185,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16662,
+      "offset": 16856,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16708,
+      "offset": 16902,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16778,
+      "offset": 16972,
       "length": 24,
       "value": "\"please_enter_avlAmount\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16965,
+      "offset": 17159,
       "length": 28,
       "value": "\"pleaseEnterBeneficiaryName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19213,
+      "offset": 19407,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19345,
+      "offset": 19539,
       "length": 18,
       "value": "\"Card Holder Name\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19419,
+      "offset": 19613,
       "length": 13,
       "value": "\"enter_title\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19507,
+      "offset": 19701,
       "length": 14,
       "value": "\"cancel_title\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19549,
+      "offset": 19743,
       "length": 10,
       "value": "\"ok_title\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19618,
+      "offset": 19812,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19637,
+      "offset": 19831,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19857,
+      "offset": 20051,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20260,
+      "offset": 20454,
       "length": 23,
       "value": "\"invalidCardHolderName\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20484,
+      "offset": 20678,
       "length": 11,
       "value": "\"enter_cvv\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20536,
+      "offset": 20730,
       "length": 13,
       "value": "\"enter_title\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20626,
+      "offset": 20820,
       "length": 14,
       "value": "\"cancel_title\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20668,
+      "offset": 20862,
       "length": 10,
       "value": "\"ok_title\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20737,
+      "offset": 20931,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20756,
+      "offset": 20950,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21038,
+      "offset": 21232,
       "length": 16,
       "value": "\"enter_valu_otp\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21095,
+      "offset": 21289,
       "length": 13,
       "value": "\"enter_title\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21185,
+      "offset": 21379,
       "length": 14,
       "value": "\"cancel_title\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21227,
+      "offset": 21421,
       "length": 10,
       "value": "\"ok_title\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21296,
+      "offset": 21490,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21315,
+      "offset": 21509,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21599,
+      "offset": 21793,
       "length": 22,
       "value": "\"Beano's Cash Balance\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21671,
+      "offset": 21865,
       "length": 35,
       "value": "\"You can link your beanos card now\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21760,
+      "offset": 21954,
       "length": 26,
       "value": "\"Link My Beano's Card Now\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24000,
+      "offset": 24194,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24194,
+      "offset": 24388,
       "length": 9,
       "value": "\"Loyalty\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24528,
+      "offset": 24722,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25164,
+      "offset": 25358,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25398,
+      "offset": 25592,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26001,
+      "offset": 26195,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26613,
+      "offset": 26807,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 28707,
+      "offset": 28901,
       "length": 5,
       "value": "160.0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 28779,
+      "offset": 28973,
       "length": 5,
       "value": "150.0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 28850,
+      "offset": 29044,
       "length": 5,
       "value": "160.0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29482,
+      "offset": 29676,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29518,
+      "offset": 29712,
       "length": 23,
       "value": "\"Authentication3DSView\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29717,
+      "offset": 29911,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 30055,
+      "offset": 30249,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 30118,
+      "offset": 30312,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 30124,
+      "offset": 30318,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30390,
+      "offset": 30584,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 30772,
+      "offset": 30966,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31496,
+      "offset": 31690,
       "length": 7,
       "value": "\"\/3ds\/\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31812,
+      "offset": 32006,
       "length": 55,
       "value": "\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ \""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 32008,
+      "offset": 32202,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32114,
+      "offset": 32308,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 32140,
+      "offset": 32334,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 32163,
+      "offset": 32357,
       "length": 4,
       "value": "true"
     },
