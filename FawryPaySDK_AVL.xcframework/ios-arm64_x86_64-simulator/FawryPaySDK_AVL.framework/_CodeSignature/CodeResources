@@ -8,6 +8,10 @@
 		<data>
 		2C6tZNk58CCyQnq4GZCb1RXf/OY=
 		</data>
+		<key>AddVoucherTableViewCell.nib</key>
+		<data>
+		8VFiaOe1WH791+Rn8MUBWo9SEPA=
+		</data>
 		<key>Assets.car</key>
 		<data>
 		Xgw+1MuStfFq5BNPFKWYs/Wn3G0=
@@ -538,6 +542,13 @@
 			<key>hash2</key>
 			<data>
 			dNtR+annG3ZhoW+4SwodPomHIj6A5a7gNOL9kAe+jSQ=
+			</data>
+		</dict>
+		<key>AddVoucherTableViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1mJsYIgbMKBvBYg3peUmdZ3Zuww+CSXF4lCRdSuCyOU=
 			</data>
 		</dict>
 		<key>Assets.car</key>
