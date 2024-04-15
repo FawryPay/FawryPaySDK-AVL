@@ -48988,21 +48988,21 @@
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 18967,
+      "offset": 18966,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 19388,
+      "offset": 19387,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/FrameworkHelper\/FrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 19469,
+      "offset": 19468,
       "length": 5,
       "value": "false"
     },
@@ -49338,469 +49338,483 @@
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20001,
+      "offset": 19488,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19924,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20149,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20075,
+      "offset": 20223,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 20145,
+      "offset": 20293,
       "length": 19,
       "value": "99999999999999999.0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20205,
+      "offset": 20353,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20275,
+      "offset": 20423,
       "length": 24,
       "value": "\"please_enter_avlAmount\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20556,
+      "offset": 20704,
       "length": 30,
       "value": "\"please_enter_avlAmount_Valid\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20767,
+      "offset": 20915,
       "length": 28,
       "value": "\"pleaseEnterBeneficiaryName\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23015,
+      "offset": 23163,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23147,
+      "offset": 23295,
       "length": 18,
       "value": "\"Card Holder Name\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23221,
+      "offset": 23369,
       "length": 13,
       "value": "\"enter_title\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23309,
+      "offset": 23457,
       "length": 14,
       "value": "\"cancel_title\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23351,
+      "offset": 23499,
       "length": 10,
       "value": "\"ok_title\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23420,
+      "offset": 23568,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23439,
+      "offset": 23587,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23659,
+      "offset": 23807,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24062,
+      "offset": 24210,
       "length": 23,
       "value": "\"invalidCardHolderName\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24286,
+      "offset": 24434,
       "length": 11,
       "value": "\"enter_cvv\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24338,
+      "offset": 24486,
       "length": 13,
       "value": "\"enter_title\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24428,
+      "offset": 24576,
       "length": 14,
       "value": "\"cancel_title\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24470,
+      "offset": 24618,
       "length": 10,
       "value": "\"ok_title\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24539,
+      "offset": 24687,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24558,
+      "offset": 24706,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24840,
+      "offset": 24988,
       "length": 16,
       "value": "\"enter_valu_otp\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24897,
+      "offset": 25045,
       "length": 13,
       "value": "\"enter_title\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24987,
+      "offset": 25135,
       "length": 14,
       "value": "\"cancel_title\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25029,
+      "offset": 25177,
       "length": 10,
       "value": "\"ok_title\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25098,
+      "offset": 25246,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25117,
+      "offset": 25265,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25401,
+      "offset": 25549,
       "length": 22,
       "value": "\"Beano's Cash Balance\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25473,
+      "offset": 25621,
       "length": 35,
       "value": "\"You can link your beanos card now\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25562,
+      "offset": 25710,
       "length": 26,
       "value": "\"Link My Beano's Card Now\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27802,
+      "offset": 27950,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27996,
+      "offset": 28144,
       "length": 9,
       "value": "\"Loyalty\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28330,
+      "offset": 28478,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28966,
+      "offset": 29114,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29200,
+      "offset": 29348,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29803,
+      "offset": 29951,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30415,
+      "offset": 30563,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 30687,
+      "offset": 30835,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 30907,
+      "offset": 31055,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 31049,
+      "offset": 31197,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 31227,
+      "offset": 31375,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 31425,
+      "offset": 31573,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 31575,
+      "offset": 31723,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32132,
+      "offset": 32280,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32853,
+      "offset": 33001,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33243,
+      "offset": 33391,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33432,
+      "offset": 33580,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33608,
+      "offset": 33756,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33755,
+      "offset": 33903,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34025,
+      "offset": 34173,
       "length": 5,
       "value": "160.0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34105,
+      "offset": 34253,
       "length": 5,
       "value": "150.0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 34184,
+      "offset": 34332,
       "length": 5,
       "value": "180.0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35286,
+      "offset": 35434,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35322,
+      "offset": 35470,
       "length": 23,
       "value": "\"Authentication3DSView\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35521,
+      "offset": 35669,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 35859,
+      "offset": 36007,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35922,
+      "offset": 36070,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35928,
+      "offset": 36076,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36194,
+      "offset": 36342,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 36576,
+      "offset": 36724,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 37300,
+      "offset": 37448,
       "length": 7,
       "value": "\"\/3ds\/\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 37616,
+      "offset": 37764,
       "length": 55,
       "value": "\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ \""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37812,
+      "offset": 37960,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 37918,
+      "offset": 38066,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37944,
+      "offset": 38092,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37967,
+      "offset": 38115,
       "length": 4,
       "value": "true"
     },
