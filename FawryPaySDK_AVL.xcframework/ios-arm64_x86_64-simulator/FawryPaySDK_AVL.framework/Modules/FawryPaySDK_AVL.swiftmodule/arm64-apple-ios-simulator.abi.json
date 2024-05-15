@@ -36531,91 +36531,91 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Reusable Stuffs\/Base Controller\/BaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1253,
+      "offset": 1303,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Reusable Stuffs\/Base Controller\/BaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1383,
+      "offset": 1500,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Reusable Stuffs\/Base Controller\/BaseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1969,
+      "offset": 2086,
       "length": 9,
       "value": "\"MyFawry\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Reusable Stuffs\/Base Controller\/BaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2517,
+      "offset": 2634,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Reusable Stuffs\/Base Controller\/BaseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2604,
+      "offset": 2721,
       "length": 13,
       "value": "\"Credit Card\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Reusable Stuffs\/Base Controller\/BaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3611,
+      "offset": 3728,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Reusable Stuffs\/Base Controller\/BaseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3675,
+      "offset": 3792,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Reusable Stuffs\/Base Controller\/BaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3804,
+      "offset": 3921,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Reusable Stuffs\/Base Controller\/BaseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4120,
+      "offset": 4237,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Reusable Stuffs\/Base Controller\/BaseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4351,
+      "offset": 4468,
       "length": 10,
       "value": "\"Settings\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Reusable Stuffs\/Base Controller\/BaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5062,
+      "offset": 5179,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Reusable Stuffs\/Base Controller\/BaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5475,
+      "offset": 5592,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/Reusable Stuffs\/Base Controller\/BaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5520,
+      "offset": 5637,
       "length": 4,
       "value": "true"
     },
@@ -40731,98 +40731,105 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
       "kind": "StringLiteral",
-      "offset": 4070,
+      "offset": 4158,
       "length": 7,
       "value": "\"en-gb\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
       "kind": "StringLiteral",
-      "offset": 4269,
+      "offset": 4284,
+      "length": 7,
+      "value": "\"ar-eg\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
+      "kind": "StringLiteral",
+      "offset": 4493,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
       "kind": "StringLiteral",
-      "offset": 4442,
+      "offset": 4666,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
       "kind": "StringLiteral",
-      "offset": 4968,
+      "offset": 5192,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
       "kind": "StringLiteral",
-      "offset": 5100,
+      "offset": 5324,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
       "kind": "StringLiteral",
-      "offset": 5166,
+      "offset": 5390,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
       "kind": "FloatLiteral",
-      "offset": 5264,
+      "offset": 5488,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
       "kind": "StringLiteral",
-      "offset": 5313,
+      "offset": 5537,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
       "kind": "StringLiteral",
-      "offset": 5369,
+      "offset": 5593,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
       "kind": "StringLiteral",
-      "offset": 5427,
+      "offset": 5651,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
       "kind": "StringLiteral",
-      "offset": 5461,
+      "offset": 5685,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
       "kind": "StringLiteral",
-      "offset": 5511,
+      "offset": 5735,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
       "kind": "StringLiteral",
-      "offset": 5650,
+      "offset": 5874,
       "length": 6,
       "value": "\"%.2f\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayAVL\/FawryPaySDK\/Core\/DataLayers\/Charge Card Payment\/AVLParams.swift",
       "kind": "StringLiteral",
-      "offset": 5919,
+      "offset": 6143,
       "length": 2,
       "value": "\"\""
     },
