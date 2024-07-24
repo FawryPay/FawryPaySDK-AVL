@@ -16775,7 +16775,8 @@
             "mangledName": "$s15FawryPaySDK_AVL19LaunchMerchantModelC12merchantCode0H6RefNum9secureKeyACSSSg_A2Gtcfc",
             "moduleName": "FawryPaySDK_AVL",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
