@@ -37536,8 +37536,8 @@
           },
           {
             "kind": "Function",
-            "name": "addKeyboardToolbarWithTarget",
-            "printedName": "addKeyboardToolbarWithTarget(target:titleText:titleAccessibilityLabel:rightBarButtonConfiguration:previousBarButtonConfiguration:nextBarButtonConfiguration:)",
+            "name": "addFPKeyboardToolbarWithTarget",
+            "printedName": "addFPKeyboardToolbarWithTarget(target:titleText:titleAccessibilityLabel:rightBarButtonConfiguration:previousBarButtonConfiguration:nextBarButtonConfiguration:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -37632,8 +37632,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@FawryPaySDK_AVL@@objc(cs)UIView(im)addKeyboardToolbarWithTargetWithTarget:titleText:titleAccessibilityLabel:rightBarButtonConfiguration:previousBarButtonConfiguration:nextBarButtonConfiguration:",
-            "mangledName": "$sSo6UIViewC15FawryPaySDK_AVLE28addKeyboardToolbarWithTarget6target9titleText0L18AccessibilityLabel27rightBarButtonConfiguration08previousqrS004nextqrS0yyXlSg_SSSgAlC07FPIQBarr4ItemS0CSgA2OtF",
+            "usr": "c:@CM@FawryPaySDK_AVL@@objc(cs)UIView(im)addFPKeyboardToolbarWithTargetWithTarget:titleText:titleAccessibilityLabel:rightBarButtonConfiguration:previousBarButtonConfiguration:nextBarButtonConfiguration:",
+            "mangledName": "$sSo6UIViewC15FawryPaySDK_AVLE30addFPKeyboardToolbarWithTarget6target9titleText0L18AccessibilityLabel27rightBarButtonConfiguration08previousqrS004nextqrS0yyXlSg_SSSgAlC07FPIQBarr4ItemS0CSgA2OtF",
             "moduleName": "FawryPaySDK_AVL",
             "declAttributes": [
               "Dynamic",
@@ -42836,63 +42836,63 @@
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQToolbar\/FPIQUIView+IQKeyboardToolbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 21234,
+      "offset": 21236,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQToolbar\/FPIQUIView+IQKeyboardToolbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 21984,
+      "offset": 21988,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQToolbar\/FPIQUIView+IQKeyboardToolbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 22810,
+      "offset": 22816,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQToolbar\/FPIQUIView+IQKeyboardToolbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 23670,
+      "offset": 23678,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQToolbar\/FPIQUIView+IQKeyboardToolbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 24155,
+      "offset": 24163,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQToolbar\/FPIQUIView+IQKeyboardToolbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 24733,
+      "offset": 24741,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQToolbar\/FPIQUIView+IQKeyboardToolbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 27343,
+      "offset": 27357,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQToolbar\/FPIQUIView+IQKeyboardToolbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 27866,
+      "offset": 27880,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQToolbar\/FPIQUIView+IQKeyboardToolbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 28439,
+      "offset": 28453,
       "length": 5,
       "value": "false"
     },

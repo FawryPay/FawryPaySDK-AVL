@@ -132,7 +132,7 @@ public struct SavedCard : Swift.Codable {
   @objc @_Concurrency.MainActor(unsafe) dynamic public var drawingToolbarPlaceholder: Swift.String? {
     @objc get
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addKeyboardToolbarWithTarget(target: Swift.AnyObject?, titleText: Swift.String?, titleAccessibilityLabel: Swift.String? = nil, rightBarButtonConfiguration: FawryPaySDK_AVL.FPIQBarButtonItemConfiguration?, previousBarButtonConfiguration: FawryPaySDK_AVL.FPIQBarButtonItemConfiguration? = nil, nextBarButtonConfiguration: FawryPaySDK_AVL.FPIQBarButtonItemConfiguration? = nil)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func addFPKeyboardToolbarWithTarget(target: Swift.AnyObject?, titleText: Swift.String?, titleAccessibilityLabel: Swift.String? = nil, rightBarButtonConfiguration: FawryPaySDK_AVL.FPIQBarButtonItemConfiguration?, previousBarButtonConfiguration: FawryPaySDK_AVL.FPIQBarButtonItemConfiguration? = nil, nextBarButtonConfiguration: FawryPaySDK_AVL.FPIQBarButtonItemConfiguration? = nil)
   @objc @_Concurrency.MainActor(unsafe) dynamic public func addDoneOnKeyboardWithTarget(_ target: Swift.AnyObject?, action: ObjectiveC.Selector, shouldShowPlaceholder: Swift.Bool = false, titleAccessibilityLabel: Swift.String? = nil)
   @objc @_Concurrency.MainActor(unsafe) dynamic public func addDoneOnKeyboardWithTarget(_ target: Swift.AnyObject?, action: ObjectiveC.Selector, titleText: Swift.String?, titleAccessibilityLabel: Swift.String? = nil)
   @objc @_Concurrency.MainActor(unsafe) dynamic public func addRightButtonOnKeyboardWithImage(_ image: UIKit.UIImage, target: Swift.AnyObject?, action: ObjectiveC.Selector, shouldShowPlaceholder: Swift.Bool = false, titleAccessibilityLabel: Swift.String? = nil)
