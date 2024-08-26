@@ -377,18 +377,6 @@ typedef SWIFT_ENUM(NSInteger, DisplayType, open) {
   DisplayTypeUnderlinedBottom = 4,
 };
 
-/// <code>IQAutoToolbarBySubviews</code>
-/// Creates Toolbar according to subview’s hirarchy of Textfield’s in view.
-/// <code>IQAutoToolbarByTag</code>
-/// Creates Toolbar according to tag property of TextField’s.
-/// <code>IQAutoToolbarByPosition</code>
-/// Creates Toolbar according to the y,x position of textField in it’s superview coordinate.
-typedef SWIFT_ENUM(NSInteger, FPIQAutoToolbarManageBehaviour, open) {
-  FPIQAutoToolbarManageBehaviourBySubviews = 0,
-  FPIQAutoToolbarManageBehaviourByTag = 1,
-  FPIQAutoToolbarManageBehaviourByPosition = 2,
-};
-
 @class FPIQInvocation;
 
 SWIFT_CLASS("_TtC15FawryPaySDK_AVL17FPIQBarButtonItem") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
@@ -419,18 +407,6 @@ SWIFT_CLASS("_TtC15FawryPaySDK_AVL30FPIQBarButtonItemConfiguration") SWIFT_AVAIL
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-/// <code>IQEnableModeDefault</code>
-/// Pick default settings.
-/// <code>IQEnableModeEnabled</code>
-/// setting is enabled.
-/// <code>IQEnableModeDisabled</code>
-/// setting is disabled.
-typedef SWIFT_ENUM(NSInteger, FPIQEnableMode, open) {
-  FPIQEnableModeDefault = 0,
-  FPIQEnableModeEnabled = 1,
-  FPIQEnableModeDisabled = 2,
-};
-
 
 SWIFT_CLASS("_TtC15FawryPaySDK_AVL14FPIQInvocation") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface FPIQInvocation : NSObject
@@ -442,9 +418,6 @@ SWIFT_CLASS("_TtC15FawryPaySDK_AVL14FPIQInvocation") SWIFT_AVAILABILITY(ios_app_
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-enum FPIQPreviousNextDisplayMode : NSInteger;
-@class UIFont;
-@class UITapGestureRecognizer;
 
 /// Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView. Neither need to write any code nor any setup required and much more. A generic version of KeyboardManagement. https://developer.apple.com/library/ios/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/KeyboardManagement/KeyboardManagement.html
 SWIFT_CLASS("_TtC15FawryPaySDK_AVL19FPIQKeyboardManager") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
@@ -458,83 +431,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) FPIQKeyboard
 @property (nonatomic) CGFloat keyboardDistanceFromTextField;
 /// Automatic add the IQToolbar functionality. Default is YES.
 @property (nonatomic) BOOL enableAutoToolbar;
-/// /**
-/// IQAutoToolbarBySubviews:   Creates Toolbar according to subview’s hirarchy of Textfield’s in view.
-/// IQAutoToolbarByTag:        Creates Toolbar according to tag property of TextField’s.
-/// IQAutoToolbarByPosition:   Creates Toolbar according to the y,x position of textField in it’s superview coordinate.
-/// Default is IQAutoToolbarBySubviews.
-/// */
-/// AutoToolbar managing behaviour. Default is IQAutoToolbarBySubviews.
-@property (nonatomic) enum FPIQAutoToolbarManageBehaviour toolbarManageBehaviour;
 /// If YES, then uses textField’s tintColor property for IQToolbar, otherwise tint color is default. Default is NO.
 @property (nonatomic) BOOL shouldToolbarUsesTextFieldTintColor;
 /// This is used for toolbar.tintColor when textfield.keyboardAppearance is UIKeyboardAppearanceDefault. If shouldToolbarUsesTextFieldTintColor is YES then this property is ignored. Default is nil and uses black color.
 @property (nonatomic, strong) UIColor * _Nullable toolbarTintColor;
 /// This is used for toolbar.barTintColor. Default is nil.
 @property (nonatomic, strong) UIColor * _Nullable toolbarBarTintColor;
-/// IQPreviousNextDisplayModeDefault:      Show NextPrevious when there are more than 1 textField otherwise hide.
-/// IQPreviousNextDisplayModeAlwaysHide:   Do not show NextPrevious buttons in any case.
-/// IQPreviousNextDisplayModeAlwaysShow:   Always show nextPrevious buttons, if there are more than 1 textField then both buttons will be visible but will be shown as disabled.
-@property (nonatomic) enum FPIQPreviousNextDisplayMode previousNextDisplayMode;
-/// Toolbar previous/next/done button icon, If nothing is provided then check toolbarDoneBarButtonItemText to draw done button.
-@property (nonatomic, strong) UIImage * _Nullable toolbarPreviousBarButtonItemImage;
-@property (nonatomic, strong) UIImage * _Nullable toolbarNextBarButtonItemImage;
-@property (nonatomic, strong) UIImage * _Nullable toolbarDoneBarButtonItemImage;
-/// Toolbar previous/next/done button text, If nothing is provided then system default ‘UIBarButtonSystemItemDone’ will be used.
-@property (nonatomic, copy) NSString * _Nullable toolbarPreviousBarButtonItemText;
-@property (nonatomic, copy) NSString * _Nullable toolbarPreviousBarButtonItemAccessibilityLabel;
-@property (nonatomic, copy) NSString * _Nullable toolbarNextBarButtonItemText;
-@property (nonatomic, copy) NSString * _Nullable toolbarNextBarButtonItemAccessibilityLabel;
-@property (nonatomic, copy) NSString * _Nullable toolbarDoneBarButtonItemText;
-@property (nonatomic, copy) NSString * _Nullable toolbarDoneBarButtonItemAccessibilityLabel;
-@property (nonatomic, copy) NSString * _Nullable toolbarTitlBarButtonItemAccessibilityLabel;
-/// If YES, then it add the textField’s placeholder text on IQToolbar. Default is YES.
-@property (nonatomic) BOOL shouldShowToolbarPlaceholder;
-/// Placeholder Font. Default is nil.
-@property (nonatomic, strong) UIFont * _Nullable placeholderFont;
-/// Placeholder Color. Default is nil. Which means lightGray
-@property (nonatomic, strong) UIColor * _Nullable placeholderColor;
-/// Placeholder Button Color when it’s treated as button. Default is nil.
-@property (nonatomic, strong) UIColor * _Nullable placeholderButtonColor;
-/// Override the keyboardAppearance for all textField/textView. Default is NO.
-@property (nonatomic) BOOL overrideKeyboardAppearance;
-/// If overrideKeyboardAppearance is YES, then all the textField keyboardAppearance is set using this property.
-@property (nonatomic) UIKeyboardAppearance keyboardAppearance;
-/// Resigns Keyboard on touching outside of UITextField/View. Default is NO.
-@property (nonatomic) BOOL shouldResignOnTouchOutside;
-/// TapGesture to resign keyboard on view’s touch. It’s a readonly property and exposed only for adding/removing dependencies if your added gesture does have collision with this one
-@property (nonatomic, strong) UITapGestureRecognizer * _Nonnull resignFirstResponderGesture;
-/// Resigns currently first responder field.
-- (BOOL)resignFirstResponder;
-/// If YES, then it plays inputClick sound on next/previous/done click.
-@property (nonatomic) BOOL shouldPlayInputClicks;
-/// If YES, then calls ‘setNeedsLayout’ and ‘layoutIfNeeded’ on any frame update of to viewController’s view.
-@property (nonatomic) BOOL layoutIfNeededOnUpdate;
-/// Disable distance handling within the scope of disabled distance handling viewControllers classes. Within this scope, ‘enabled’ property is ignored. Class should be kind of UIViewController.
-@property (nonatomic, copy) NSArray<SWIFT_METATYPE(UIViewController)> * _Nonnull disabledDistanceHandlingClasses;
-/// Enable distance handling within the scope of enabled distance handling viewControllers classes. Within this scope, ‘enabled’ property is ignored. Class should be kind of UIViewController. If same Class is added in disabledDistanceHandlingClasses list, then enabledDistanceHandlingClasses will be ignored.
-@property (nonatomic, copy) NSArray<SWIFT_METATYPE(UIViewController)> * _Nonnull enabledDistanceHandlingClasses;
-/// Disable automatic toolbar creation within the scope of disabled toolbar viewControllers classes. Within this scope, ‘enableAutoToolbar’ property is ignored. Class should be kind of UIViewController.
-@property (nonatomic, copy) NSArray<SWIFT_METATYPE(UIViewController)> * _Nonnull disabledToolbarClasses;
-/// Enable automatic toolbar creation within the scope of enabled toolbar viewControllers classes. Within this scope, ‘enableAutoToolbar’ property is ignored. Class should be kind of UIViewController. If same Class is added in disabledToolbarClasses list, then enabledToolbarClasses will be ignore.
-@property (nonatomic, copy) NSArray<SWIFT_METATYPE(UIViewController)> * _Nonnull enabledToolbarClasses;
-/// Allowed subclasses of UIView to add all inner textField, this will allow to navigate between textField contains in different superview. Class should be kind of UIView.
-@property (nonatomic, copy) NSArray<SWIFT_METATYPE(UIView)> * _Nonnull toolbarPreviousNextAllowedClasses;
-/// Disabled classes to ignore ‘shouldResignOnTouchOutside’ property, Class should be kind of UIViewController.
-@property (nonatomic, copy) NSArray<SWIFT_METATYPE(UIViewController)> * _Nonnull disabledTouchResignedClasses;
-/// Enabled classes to forcefully enable ‘shouldResignOnTouchOutsite’ property. Class should be kind of UIViewController. If same Class is added in disabledTouchResignedClasses list, then enabledTouchResignedClasses will be ignored.
-@property (nonatomic, copy) NSArray<SWIFT_METATYPE(UIViewController)> * _Nonnull enabledTouchResignedClasses;
-/// if shouldResignOnTouchOutside is enabled then you can customise the behaviour to not recognise gesture touches on some specific view subclasses. Class should be kind of UIView. Default is [UIControl, UINavigationBar]
-@property (nonatomic, copy) NSArray<SWIFT_METATYPE(UIView)> * _Nonnull touchResignedGestureIgnoreClasses;
-/// Add/Remove customised Notification for third party customised TextField/TextView. Please be aware that the Notification object must be idential to UITextField/UITextView Notification objects and customised TextField/TextView support must be idential to UITextField/UITextView.
-/// @param didBeginEditingNotificationName This should be identical to UITextViewTextDidBeginEditingNotification
-/// @param didEndEditingNotificationName This should be identical to UITextViewTextDidEndEditingNotification
-- (void)registerTextFieldViewClass:(SWIFT_METATYPE(UIView) _Nonnull)aClass didBeginEditingNotificationName:(NSString * _Nonnull)didBeginEditingNotificationName didEndEditingNotificationName:(NSString * _Nonnull)didEndEditingNotificationName;
-- (void)unregisterTextFieldViewClass:(SWIFT_METATYPE(UIView) _Nonnull)aClass didBeginEditingNotificationName:(NSString * _Nonnull)didBeginEditingNotificationName didEndEditingNotificationName:(NSString * _Nonnull)didEndEditingNotificationName;
 /// <hr/>
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)reloadLayoutIfNeeded;
 @end
 
 
@@ -549,153 +454,10 @@ SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 
 
 
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQKeyboardManager (SWIFT_EXTENSION(FawryPaySDK_AVL))
-@property (nonatomic) BOOL enableDebugging;
-/// @warning Use below methods to completely enable/disable notifications registered by library internally.
-/// Please keep in mind that library is totally dependent on NSNotification of UITextField, UITextField, Keyboard etc.
-/// If you do unregisterAllNotifications then library will not work at all. You should only use below methods if you want to completedly disable all library functions.
-/// You should use below methods at your own risk.
-- (void)registerAllNotifications;
-- (void)unregisterAllNotifications;
-@end
-
-
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQKeyboardManager (SWIFT_EXTENSION(FawryPaySDK_AVL))
-/// reloadInputViews to reload toolbar buttons enable/disable state on the fly Enhancement ID #434.
-- (void)reloadInputViews;
-@end
-
-
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQKeyboardManager (SWIFT_EXTENSION(FawryPaySDK_AVL))
-/// Returns YES if can navigate to previous responder textField/textView, otherwise NO.
-@property (nonatomic, readonly) BOOL canGoPrevious;
-/// Returns YES if can navigate to next responder textField/textView, otherwise NO.
-@property (nonatomic, readonly) BOOL canGoNext;
-/// Navigate to previous responder textField/textView.
-- (BOOL)goPrevious;
-/// Navigate to next responder textField/textView.
-- (BOOL)goNext;
-@end
 
 
 
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQKeyboardManager (SWIFT_EXTENSION(FawryPaySDK_AVL))
-/// moved distance to the top used to maintain distance between keyboard and textField. Most of the time this will be a positive value.
-@property (nonatomic, readonly) CGFloat movedDistance;
-/// Will be called then movedDistance will be changed
-@property (nonatomic, copy) void (^ _Nullable movedDistanceChanged)(CGFloat);
-@end
 
-
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQKeyboardManager (SWIFT_EXTENSION(FawryPaySDK_AVL))
-- (void)registerKeyboardSizeChangeWithIdentifier:(NSObject * _Nonnull)identifier sizeHandler:(void (^ _Nonnull)(CGSize))sizeHandler;
-- (void)unregisterKeyboardSizeChangeWithIdentifier:(NSObject * _Nonnull)identifier;
-/// Boolean to know if keyboard is showing.
-@property (nonatomic, readonly) BOOL keyboardShowing;
-/// To save keyboard rame.
-@property (nonatomic, readonly) CGRect keyboardFrame;
-@end
-
-@protocol UITextFieldDelegate;
-@protocol UITextViewDelegate;
-
-/// Manages the return key to work like next/done in a view hierarchy.
-SWIFT_CLASS("_TtC15FawryPaySDK_AVL28FPIQKeyboardReturnKeyHandler") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQKeyboardReturnKeyHandler : NSObject
-/// Delegate of textField/textView.
-@property (nonatomic, weak) id <UITextFieldDelegate, UITextViewDelegate> _Nullable delegate;
-/// Set the last textfield return key type. Default is UIReturnKeyDefault.
-@property (nonatomic) UIReturnKeyType lastTextFieldReturnKeyType;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-/// Add all the textFields available in UIViewController’s view.
-- (nonnull instancetype)initWithController:(UIViewController * _Nonnull)controller OBJC_DESIGNATED_INITIALIZER;
-/// Should pass UITextField/UITextView intance. Assign textFieldView delegate to self, change it’s returnKeyType.
-/// @param view UITextField/UITextView object to register.
-- (void)addTextFieldView:(UIView * _Nonnull)view;
-/// Should pass UITextField/UITextView intance. Restore it’s textFieldView delegate and it’s returnKeyType.
-/// @param view UITextField/UITextView object to unregister.
-- (void)removeTextFieldView:(UIView * _Nonnull)view;
-/// Add all the UITextField/UITextView responderView’s.
-/// @param view UIView object to register all it’s responder subviews.
-- (void)addResponderFromView:(UIView * _Nonnull)view;
-/// Remove all the UITextField/UITextView responderView’s.
-/// @param view UIView object to unregister all it’s responder subviews.
-- (void)removeResponderFromView:(UIView * _Nonnull)view;
-@end
-
-@class UITextView;
-@class UIMenuElement;
-@class UIMenu;
-@protocol UIEditMenuInteractionAnimating;
-
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQKeyboardReturnKeyHandler (SWIFT_EXTENSION(FawryPaySDK_AVL))
-- (UIMenu * _Nullable)textView:(UITextView * _Nonnull)aTextView editMenuForTextInRange:(NSRange)range suggestedActions:(NSArray<UIMenuElement *> * _Nonnull)suggestedActions SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=16.0);
-- (void)textView:(UITextView * _Nonnull)aTextView willPresentEditMenuWithAnimator:(id <UIEditMenuInteractionAnimating> _Nonnull)animator SWIFT_AVAILABILITY(ios,introduced=16.0);
-- (void)textView:(UITextView * _Nonnull)aTextView willDismissEditMenuWithAnimator:(id <UIEditMenuInteractionAnimating> _Nonnull)animator SWIFT_AVAILABILITY(ios,introduced=16.0);
-@end
-
-@class UITextItem;
-@class UIAction;
-@class UITextItemMenuConfiguration;
-@protocol UIContextMenuInteractionAnimating;
-
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQKeyboardReturnKeyHandler (SWIFT_EXTENSION(FawryPaySDK_AVL))
-- (UIAction * _Nullable)textView:(UITextView * _Nonnull)aTextView primaryActionForTextItem:(UITextItem * _Nonnull)textItem defaultAction:(UIAction * _Nonnull)defaultAction SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=17.0);
-- (UITextItemMenuConfiguration * _Nullable)textView:(UITextView * _Nonnull)aTextView menuConfigurationForTextItem:(UITextItem * _Nonnull)textItem defaultMenu:(UIMenu * _Nonnull)defaultMenu SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=17.0);
-- (void)textView:(UITextView * _Nonnull)textView textItemMenuWillDisplayForTextItem:(UITextItem * _Nonnull)textItem animator:(id <UIContextMenuInteractionAnimating> _Nonnull)animator SWIFT_AVAILABILITY(ios,introduced=17.0);
-- (void)textView:(UITextView * _Nonnull)textView textItemMenuWillEndForTextItem:(UITextItem * _Nonnull)textItem animator:(id <UIContextMenuInteractionAnimating> _Nonnull)animator SWIFT_AVAILABILITY(ios,introduced=17.0);
-@end
-
-@class UITextField;
-
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQKeyboardReturnKeyHandler (SWIFT_EXTENSION(FawryPaySDK_AVL)) <UITextFieldDelegate>
-- (BOOL)textFieldShouldBeginEditing:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)textFieldShouldEndEditing:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
-- (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
-- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
-- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField reason:(UITextFieldDidEndEditingReason)reason;
-- (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)textFieldShouldClear:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@class NSURL;
-@class NSTextAttachment;
-
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQKeyboardReturnKeyHandler (SWIFT_EXTENSION(FawryPaySDK_AVL)) <UITextViewDelegate>
-- (BOOL)textViewShouldBeginEditing:(UITextView * _Nonnull)textView SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)textViewShouldEndEditing:(UITextView * _Nonnull)textView SWIFT_WARN_UNUSED_RESULT;
-- (void)textViewDidBeginEditing:(UITextView * _Nonnull)textView;
-- (void)textViewDidEndEditing:(UITextView * _Nonnull)textView;
-- (BOOL)textView:(UITextView * _Nonnull)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString * _Nonnull)text SWIFT_WARN_UNUSED_RESULT;
-- (void)textViewDidChange:(UITextView * _Nonnull)textView;
-- (void)textViewDidChangeSelection:(UITextView * _Nonnull)textView;
-- (BOOL)textView:(UITextView * _Nonnull)aTextView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)textView:(UITextView * _Nonnull)aTextView shouldInteractWithTextAttachment:(NSTextAttachment * _Nonnull)textAttachment inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)textView:(UITextView * _Nonnull)aTextView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,deprecated=10.0);
-- (BOOL)textView:(UITextView * _Nonnull)aTextView shouldInteractWithTextAttachment:(NSTextAttachment * _Nonnull)textAttachment inRange:(NSRange)characterRange SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,deprecated=10.0);
-@end
-
-/// <code>IQPreviousNextDisplayModeDefault</code>
-/// Show NextPrevious when there are more than 1 textField otherwise hide.
-/// <code>IQPreviousNextDisplayModeAlwaysHide</code>
-/// Do not show NextPrevious buttons in any case.
-/// <code>IQPreviousNextDisplayModeAlwaysShow</code>
-/// Always show nextPrevious buttons, if there are more than 1 textField then both buttons will be visible but will be shown as disabled.
-typedef SWIFT_ENUM(NSInteger, FPIQPreviousNextDisplayMode, open) {
-  FPIQPreviousNextDisplayModeDefault = 0,
-  FPIQPreviousNextDisplayModeAlwaysHide = 1,
-  FPIQPreviousNextDisplayModeAlwaysShow = 2,
-};
 
 
 SWIFT_CLASS("_TtC15FawryPaySDK_AVL20FPIQPreviousNextView") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
@@ -704,29 +466,7 @@ SWIFT_CLASS("_TtC15FawryPaySDK_AVL20FPIQPreviousNextView") SWIFT_AVAILABILITY(io
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSTextContainer;
-@class NSAttributedString;
-
-/// @abstract UITextView with placeholder support
-SWIFT_CLASS("_TtC15FawryPaySDK_AVL12FPIQTextView") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQTextView : UITextView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithFrame:(CGRect)frame textContainer:(NSTextContainer * _Nullable)textContainer OBJC_DESIGNATED_INITIALIZER;
-- (void)awakeFromNib;
-/// @abstract To set textView’s placeholder text color.
-@property (nonatomic, strong) IBInspectable UIColor * _Nullable placeholderTextColor;
-/// @abstract To set textView’s placeholder text. Default is nil.
-@property (nonatomic, copy) IBInspectable NSString * _Nullable placeholder;
-- (void)layoutSubviews;
-@property (nonatomic, copy) NSString * _Null_unspecified text;
-@property (nonatomic, strong) NSAttributedString * _Null_unspecified attributedText;
-@property (nonatomic, strong) UIFont * _Nullable font;
-@property (nonatomic) NSTextAlignment textAlignment;
-@property (nonatomic, weak) id <UITextViewDelegate> _Nullable delegate;
-@property (nonatomic, readonly) CGSize intrinsicContentSize;
-@end
-
-
+@class UIFont;
 
 SWIFT_CLASS("_TtC15FawryPaySDK_AVL22FPIQTitleBarButtonItem") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface FPIQTitleBarButtonItem : FPIQBarButtonItem
@@ -832,6 +572,7 @@ SWIFT_CLASS("_TtC15FawryPaySDK_AVL12OTPFieldView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextField;
 
 @interface OTPFieldView (SWIFT_EXTENSION(FawryPaySDK_AVL)) <UITextFieldDelegate>
 - (BOOL)textFieldShouldBeginEditing:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
@@ -963,15 +704,6 @@ SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 
 
 
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface UIScrollView (SWIFT_EXTENSION(FawryPaySDK_AVL))
-/// If YES, then scrollview will ignore scrolling (simply not scroll it) for adjusting textfield position. Default is NO.
-@property (nonatomic) BOOL shouldIgnoreScrollingAdjustment;
-/// If YES, then scrollview will ignore content inset adjustment (simply not updating it) when keyboard is shown. Default is NO.
-@property (nonatomic) BOOL shouldIgnoreContentInsetAdjustment;
-/// To set customized distance from keyboard for textField/textView. Can’t be less than zero
-@property (nonatomic) BOOL shouldRestoreScrollViewContentOffset;
-@end
 
 
 
@@ -982,33 +714,6 @@ SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 
 
 
-
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface UIView (SWIFT_EXTENSION(FawryPaySDK_AVL))
-/// To set customized distance from keyboard for textField/textView. Can’t be less than zero
-@property (nonatomic) CGFloat keyboardDistanceFromTextField;
-/// If shouldIgnoreSwitchingByNextPrevious is true then library will ignore this textField/textView while moving to other textField/textView using keyboard toolbar next previous buttons. Default is false
-@property (nonatomic) BOOL ignoreSwitchingByNextPrevious;
-/// Override Enable/disable managing distance between keyboard and textField behaviour for this particular textField.
-@property (nonatomic) enum FPIQEnableMode enableMode;
-/// Override resigns Keyboard on touching outside of UITextField/View behaviour for this particular textField.
-@property (nonatomic) enum FPIQEnableMode shouldResignOnTouchOutsideMode;
-@end
-
-
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface UIView (SWIFT_EXTENSION(FawryPaySDK_AVL))
-/// Returns the UIViewController object that manages the receiver.
-- (UIViewController * _Nullable)viewContainingController SWIFT_WARN_UNUSED_RESULT;
-/// Returns the topMost UIViewController object in hierarchy.
-- (UIViewController * _Nullable)topMostController SWIFT_WARN_UNUSED_RESULT;
-/// Returns the UIViewController object that is actually the parent of this object. Most of the time it’s the viewController object which actually contains it, but result may be different if it’s viewController is added as childViewController of another viewController.
-- (UIViewController * _Nullable)parentContainerViewController SWIFT_WARN_UNUSED_RESULT;
-/// Returns the superView of provided class type.
-/// @param classType class type of the object which is to be search in above hierarchy and return
-/// @param belowView view object in upper hierarchy where method should stop searching and return nil
-- (UIView * _Nullable)superviewOfClassType:(SWIFT_METATYPE(UIView) _Nonnull)classType belowView:(UIView * _Nullable)belowView SWIFT_WARN_UNUSED_RESULT;
-@end
 
 
 
@@ -1045,15 +750,11 @@ SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 
 
 
-@class NSLayoutConstraint;
 
 SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UIViewController (SWIFT_EXTENSION(FawryPaySDK_AVL))
 /// This method is provided to override by viewController’s if the library lifts a viewController which you doesn’t want to lift . This may happen if you have implemented side menu feature in your app and the library try to lift the side menu controller. Overriding this method in side menu class to return correct controller should fix the problem.
 - (UIViewController * _Nullable)parentIQContainerViewController SWIFT_WARN_UNUSED_RESULT;
-/// To set customized distance from keyboard for textField/textView. Can’t be less than zero
-/// @deprecated    Due to change in core-logic of handling distance between textField and keyboard distance, this layout contraint tweak is no longer needed and things will just work out of the box regardless of constraint pinned with safeArea/layoutGuide/superview
-@property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Nullable IQLayoutGuideConstraint SWIFT_DEPRECATED_MSG("Due to change in core-logic of handling distance between textField and keyboard distance, this layout contraint tweak is no longer needed and things will just work out of the box regardless of constraint pinned with safeArea/layoutGuide/superview.");
 @end
 
 
