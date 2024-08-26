@@ -377,127 +377,6 @@ typedef SWIFT_ENUM(NSInteger, DisplayType, open) {
   DisplayTypeUnderlinedBottom = 4,
 };
 
-@class FPIQInvocation;
-
-SWIFT_CLASS("_TtC15FawryPaySDK_AVL17FPIQBarButtonItem") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQBarButtonItem : UIBarButtonItem
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@property (nonatomic, strong) UIColor * _Nullable tintColor;
-/// Additional target & action to do get callback action. Note that setting custom target & selector doesn’t affect native functionality, this is just an additional target to get a callback.
-/// @param target Target object.
-/// @param action Target Selector.
-- (void)setTarget:(id _Nullable)target action:(SEL _Nullable)action;
-/// Customized Invocation to be called when button is pressed. invocation is internally created using setTarget:action: method.
-@property (nonatomic, strong) FPIQInvocation * _Nullable invocation;
-@end
-
-@class UIImage;
-
-/// IQBarButtonItemConfiguration for creating toolbar with bar button items
-SWIFT_CLASS("_TtC15FawryPaySDK_AVL30FPIQBarButtonItemConfiguration") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQBarButtonItemConfiguration : NSObject
-- (nonnull instancetype)initWithBarButtonSystemItem:(UIBarButtonSystemItem)barButtonSystemItem action:(SEL _Nonnull)action OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithImage:(UIImage * _Nonnull)image action:(SEL _Nonnull)action OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithTitle:(NSString * _Nonnull)title action:(SEL _Nonnull)action OBJC_DESIGNATED_INITIALIZER;
-@property (nonatomic, readonly, strong) UIImage * _Nullable image;
-@property (nonatomic, readonly, copy) NSString * _Nullable title;
-@property (nonatomic, readonly) SEL _Nullable action;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC15FawryPaySDK_AVL14FPIQInvocation") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQInvocation : NSObject
-@property (nonatomic, weak) id _Nullable target;
-@property (nonatomic) SEL _Nonnull action;
-- (nonnull instancetype)init:(id _Nonnull)target :(SEL _Nonnull)action OBJC_DESIGNATED_INITIALIZER;
-- (void)invokeFrom:(id _Nonnull)from;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-/// Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView. Neither need to write any code nor any setup required and much more. A generic version of KeyboardManagement. https://developer.apple.com/library/ios/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/KeyboardManagement/KeyboardManagement.html
-SWIFT_CLASS("_TtC15FawryPaySDK_AVL19FPIQKeyboardManager") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQKeyboardManager : NSObject
-/// Returns the default singleton instance.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) FPIQKeyboardManager * _Nonnull shared;)
-+ (FPIQKeyboardManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-/// Enable/disable managing distance between keyboard and textField. Default is YES(Enabled when class loads in <code>+(void)load</code> method).
-@property (nonatomic) BOOL enable;
-/// To set keyboard distance from textField. can’t be less than zero. Default is 10.0.
-@property (nonatomic) CGFloat keyboardDistanceFromTextField;
-/// Automatic add the IQToolbar functionality. Default is YES.
-@property (nonatomic) BOOL enableAutoToolbar;
-/// If YES, then uses textField’s tintColor property for IQToolbar, otherwise tint color is default. Default is NO.
-@property (nonatomic) BOOL shouldToolbarUsesTextFieldTintColor;
-/// This is used for toolbar.tintColor when textfield.keyboardAppearance is UIKeyboardAppearanceDefault. If shouldToolbarUsesTextFieldTintColor is YES then this property is ignored. Default is nil and uses black color.
-@property (nonatomic, strong) UIColor * _Nullable toolbarTintColor;
-/// This is used for toolbar.barTintColor. Default is nil.
-@property (nonatomic, strong) UIColor * _Nullable toolbarBarTintColor;
-/// <hr/>
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQKeyboardManager (SWIFT_EXTENSION(FawryPaySDK_AVL)) <UIGestureRecognizerDelegate>
-/// Note: returning YES is guaranteed to allow simultaneous recognition. returning NO is not guaranteed to prevent simultaneous recognition, as the other gesture’s delegate may return YES.
-- (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
-/// To not detect touch events in a subclass of UIControl, these may have added their own selector for specific work
-- (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldReceiveTouch:(UITouch * _Nonnull)touch SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-
-
-
-
-
-
-
-SWIFT_CLASS("_TtC15FawryPaySDK_AVL20FPIQPreviousNextView") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQPreviousNextView : UIView
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UIFont;
-
-SWIFT_CLASS("_TtC15FawryPaySDK_AVL22FPIQTitleBarButtonItem") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQTitleBarButtonItem : FPIQBarButtonItem
-@property (nonatomic, strong) UIFont * _Nullable titleFont;
-@property (nonatomic, copy) NSString * _Nullable title;
-/// titleColor to be used for displaying button text when displaying title (disabled state).
-@property (nonatomic, strong) UIColor * _Nullable titleColor;
-/// selectableTitleColor to be used for displaying button text when button is enabled.
-@property (nonatomic, strong) UIColor * _Nullable selectableTitleColor;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (nonnull instancetype)initWithTitle:(NSString * _Nullable)title;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-/// @abstract   IQToolbar for IQKeyboardManager.
-SWIFT_CLASS("_TtC15FawryPaySDK_AVL11FPIQToolbar") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface FPIQToolbar : UIToolbar <UIInputViewAudioFeedback>
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@property (nonatomic, strong) FPIQBarButtonItem * _Nonnull previousBarButton;
-@property (nonatomic, strong) FPIQBarButtonItem * _Nonnull nextBarButton;
-@property (nonatomic, strong) FPIQTitleBarButtonItem * _Nonnull titleBarButton;
-@property (nonatomic, strong) FPIQBarButtonItem * _Nonnull doneBarButton;
-@property (nonatomic, strong) FPIQBarButtonItem * _Nonnull fixedSpaceBarButton;
-- (CGSize)sizeThatFits:(CGSize)size SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, strong) UIColor * _Null_unspecified tintColor;
-@property (nonatomic, readonly) BOOL enableInputClicksWhenVisible;
-@end
-
 
 IB_DESIGNABLE
 SWIFT_CLASS("_TtC15FawryPaySDK_AVL25FPRadioCheckboxBaseButton")
@@ -694,11 +573,6 @@ SWIFT_CLASS("_TtC15FawryPaySDK_AVL21ThemeStyleFawryPaySDK")
 
 
 
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface UIImage (SWIFT_EXTENSION(FawryPaySDK_AVL))
-+ (UIImage * _Nullable)keyboardPreviousImage SWIFT_WARN_UNUSED_RESULT;
-+ (UIImage * _Nullable)keyboardNextImage SWIFT_WARN_UNUSED_RESULT;
-@end
 
 
 
@@ -717,45 +591,7 @@ SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 
 
 
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface UIView (SWIFT_EXTENSION(FawryPaySDK_AVL))
-/// IQToolbar references for better customization control.
-@property (nonatomic, readonly, strong) FPIQToolbar * _Nonnull keyboardToolbar;
-/// If <code>shouldHideToolbarPlaceholder</code> is YES, then title will not be added to the toolbar. Default to NO.
-@property (nonatomic) BOOL shouldHideToolbarPlaceholder;
-/// <code>toolbarPlaceholder</code> to override default <code>placeholder</code> text when drawing text on toolbar.
-@property (nonatomic, copy) NSString * _Nullable toolbarPlaceholder;
-/// <code>drawingToolbarPlaceholder</code> will be actual text used to draw on toolbar. This would either <code>placeholder</code> or <code>toolbarPlaceholder</code>.
-@property (nonatomic, readonly, copy) NSString * _Nullable drawingToolbarPlaceholder;
-- (void)addFPKeyboardToolbarWithTargetWithTarget:(id _Nullable)target titleText:(NSString * _Nullable)titleText titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel rightBarButtonConfiguration:(FPIQBarButtonItemConfiguration * _Nullable)rightBarButtonConfiguration previousBarButtonConfiguration:(FPIQBarButtonItemConfiguration * _Nullable)previousBarButtonConfiguration nextBarButtonConfiguration:(FPIQBarButtonItemConfiguration * _Nullable)nextBarButtonConfiguration;
-- (void)addDoneOnKeyboardWithTarget:(id _Nullable)target action:(SEL _Nonnull)action shouldShowPlaceholder:(BOOL)shouldShowPlaceholder titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addDoneOnKeyboardWithTarget:(id _Nullable)target action:(SEL _Nonnull)action titleText:(NSString * _Nullable)titleText titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addRightButtonOnKeyboardWithImage:(UIImage * _Nonnull)image target:(id _Nullable)target action:(SEL _Nonnull)action shouldShowPlaceholder:(BOOL)shouldShowPlaceholder titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addRightButtonOnKeyboardWithImage:(UIImage * _Nonnull)image target:(id _Nullable)target action:(SEL _Nonnull)action titleText:(NSString * _Nullable)titleText titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addRightButtonOnKeyboardWithText:(NSString * _Nonnull)text target:(id _Nullable)target action:(SEL _Nonnull)action shouldShowPlaceholder:(BOOL)shouldShowPlaceholder titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addRightButtonOnKeyboardWithText:(NSString * _Nonnull)text target:(id _Nullable)target action:(SEL _Nonnull)action titleText:(NSString * _Nullable)titleText titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addCancelDoneOnKeyboardWithTarget:(id _Nullable)target cancelAction:(SEL _Nonnull)cancelAction doneAction:(SEL _Nonnull)doneAction shouldShowPlaceholder:(BOOL)shouldShowPlaceholder titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addRightLeftOnKeyboardWithTarget:(id _Nullable)target leftButtonTitle:(NSString * _Nonnull)leftButtonTitle rightButtonTitle:(NSString * _Nonnull)rightButtonTitle leftButtonAction:(SEL _Nonnull)leftButtonAction rightButtonAction:(SEL _Nonnull)rightButtonAction shouldShowPlaceholder:(BOOL)shouldShowPlaceholder titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addRightLeftOnKeyboardWithTarget:(id _Nullable)target leftButtonImage:(UIImage * _Nonnull)leftButtonImage rightButtonImage:(UIImage * _Nonnull)rightButtonImage leftButtonAction:(SEL _Nonnull)leftButtonAction rightButtonAction:(SEL _Nonnull)rightButtonAction shouldShowPlaceholder:(BOOL)shouldShowPlaceholder titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addCancelDoneOnKeyboardWithTarget:(id _Nullable)target cancelAction:(SEL _Nonnull)cancelAction doneAction:(SEL _Nonnull)doneAction titleText:(NSString * _Nullable)titleText titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addRightLeftOnKeyboardWithTarget:(id _Nullable)target leftButtonTitle:(NSString * _Nonnull)leftButtonTitle rightButtonTitle:(NSString * _Nonnull)rightButtonTitle leftButtonAction:(SEL _Nonnull)leftButtonAction rightButtonAction:(SEL _Nonnull)rightButtonAction titleText:(NSString * _Nullable)titleText titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addRightLeftOnKeyboardWithTarget:(id _Nullable)target leftButtonImage:(UIImage * _Nonnull)leftButtonImage rightButtonImage:(UIImage * _Nonnull)rightButtonImage leftButtonAction:(SEL _Nonnull)leftButtonAction rightButtonAction:(SEL _Nonnull)rightButtonAction titleText:(NSString * _Nullable)titleText titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addPreviousNextDoneOnKeyboardWithTarget:(id _Nullable)target previousAction:(SEL _Nonnull)previousAction nextAction:(SEL _Nonnull)nextAction doneAction:(SEL _Nonnull)doneAction shouldShowPlaceholder:(BOOL)shouldShowPlaceholder titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addPreviousNextRightOnKeyboardWithTarget:(id _Nullable)target rightButtonImage:(UIImage * _Nonnull)rightButtonImage previousAction:(SEL _Nonnull)previousAction nextAction:(SEL _Nonnull)nextAction rightButtonAction:(SEL _Nonnull)rightButtonAction shouldShowPlaceholder:(BOOL)shouldShowPlaceholder titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addPreviousNextRightOnKeyboardWithTarget:(id _Nullable)target rightButtonTitle:(NSString * _Nonnull)rightButtonTitle previousAction:(SEL _Nonnull)previousAction nextAction:(SEL _Nonnull)nextAction rightButtonAction:(SEL _Nonnull)rightButtonAction shouldShowPlaceholder:(BOOL)shouldShowPlaceholder titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addPreviousNextDoneOnKeyboardWithTarget:(id _Nullable)target previousAction:(SEL _Nonnull)previousAction nextAction:(SEL _Nonnull)nextAction doneAction:(SEL _Nonnull)doneAction titleText:(NSString * _Nullable)titleText titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addPreviousNextRightOnKeyboardWithTarget:(id _Nullable)target rightButtonImage:(UIImage * _Nonnull)rightButtonImage previousAction:(SEL _Nonnull)previousAction nextAction:(SEL _Nonnull)nextAction rightButtonAction:(SEL _Nonnull)rightButtonAction titleText:(NSString * _Nullable)titleText titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-- (void)addPreviousNextRightOnKeyboardWithTarget:(id _Nullable)target rightButtonTitle:(NSString * _Nonnull)rightButtonTitle previousAction:(SEL _Nonnull)previousAction nextAction:(SEL _Nonnull)nextAction rightButtonAction:(SEL _Nonnull)rightButtonAction titleText:(NSString * _Nullable)titleText titleAccessibilityLabel:(NSString * _Nullable)titleAccessibilityLabel;
-@end
 
-
-
-
-SWIFT_AVAILABILITY(ios_app_extension,unavailable)
-@interface UIViewController (SWIFT_EXTENSION(FawryPaySDK_AVL))
-/// This method is provided to override by viewController’s if the library lifts a viewController which you doesn’t want to lift . This may happen if you have implemented side menu feature in your app and the library try to lift the side menu controller. Overriding this method in side menu class to return correct controller should fix the problem.
-- (UIViewController * _Nullable)parentIQContainerViewController SWIFT_WARN_UNUSED_RESULT;
-@end
 
 
 SWIFT_CLASS("_TtC15FawryPaySDK_AVL17ValuBillDataModel")

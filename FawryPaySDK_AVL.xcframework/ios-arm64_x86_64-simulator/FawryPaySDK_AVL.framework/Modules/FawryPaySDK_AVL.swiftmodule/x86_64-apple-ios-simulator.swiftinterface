@@ -38,14 +38,6 @@ public struct SavedCard : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-@available(iOSApplicationExtension, unavailable)
-@objc final public class FPIQInvocation : ObjectiveC.NSObject {
-  @objc weak final public var target: Swift.AnyObject?
-  @objc final public var action: ObjectiveC.Selector
-  @objc public init(_ target: Swift.AnyObject, _ action: ObjectiveC.Selector)
-  @objc final public func invoke(from: Any)
-  @objc deinit
-}
 @objc @_Concurrency.MainActor(unsafe) open class FPRadioButtonContainerView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public var buttonContainer: FawryPaySDK_AVL.FPRadioButtonContainer {
     get
@@ -73,10 +65,6 @@ public struct SavedCard : Swift.Codable {
   public init(theme: UIKit.UIColor?, lightBorder: UIKit.UIColor?, darkBorder: UIKit.UIColor?, shadow: UIKit.UIColor?, darkBackground: UIKit.UIColor?, lightBackground: UIKit.UIColor?, intermidiateBackground: UIKit.UIColor?, darkText: UIKit.UIColor?, lightText: UIKit.UIColor?, intermidiateText: UIKit.UIColor?, affirmation: UIKit.UIColor?, negation: UIKit.UIColor?)
   @objc deinit
 }
-@available(iOSApplicationExtension, unavailable)
-@objc extension UIKit.UIViewController {
-  @objc @_Concurrency.MainActor(unsafe) dynamic open func parentIQContainerViewController() -> UIKit.UIViewController?
-}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class BaseComponentViewController : FawryPaySDK_AVL.BaseViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
@@ -84,73 +72,6 @@ public struct SavedCard : Swift.Codable {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
-}
-@_inheritsConvenienceInitializers @available(iOSApplicationExtension, unavailable)
-@objc @_Concurrency.MainActor(unsafe) open class FPIQBarButtonItem : UIKit.UIBarButtonItem {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor? {
-    @objc get
-    @objc set
-  }
-  @objc @_Concurrency.MainActor(unsafe) open func setTarget(_ target: Swift.AnyObject?, action: ObjectiveC.Selector?)
-  @objc @_Concurrency.MainActor(unsafe) open var invocation: FawryPaySDK_AVL.FPIQInvocation? {
-    @objc get
-    @objc set
-  }
-  @objc deinit
-}
-@available(iOSApplicationExtension, unavailable)
-@objc final public class FPIQBarButtonItemConfiguration : ObjectiveC.NSObject {
-  @objc public init(barButtonSystemItem: UIKit.UIBarButtonItem.SystemItem, action: ObjectiveC.Selector)
-  @objc public init(image: UIKit.UIImage, action: ObjectiveC.Selector)
-  @objc public init(title: Swift.String, action: ObjectiveC.Selector)
-  final public let barButtonSystemItem: UIKit.UIBarButtonItem.SystemItem?
-  @objc final public let image: UIKit.UIImage?
-  @objc final public let title: Swift.String?
-  @objc final public let action: ObjectiveC.Selector?
-  @objc deinit
-}
-@available(iOSApplicationExtension, unavailable)
-@objc extension UIKit.UIImage {
-  @objc public static func keyboardPreviousImage() -> UIKit.UIImage?
-  @objc public static func keyboardNextImage() -> UIKit.UIImage?
-}
-@available(iOSApplicationExtension, unavailable)
-@objc extension UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var keyboardToolbar: FawryPaySDK_AVL.FPIQToolbar {
-    @objc get
-  }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var shouldHideToolbarPlaceholder: Swift.Bool {
-    @objc get
-    @objc set(newValue)
-  }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var toolbarPlaceholder: Swift.String? {
-    @objc get
-    @objc set(newValue)
-  }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var drawingToolbarPlaceholder: Swift.String? {
-    @objc get
-  }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addFPKeyboardToolbarWithTarget(target: Swift.AnyObject?, titleText: Swift.String?, titleAccessibilityLabel: Swift.String? = nil, rightBarButtonConfiguration: FawryPaySDK_AVL.FPIQBarButtonItemConfiguration?, previousBarButtonConfiguration: FawryPaySDK_AVL.FPIQBarButtonItemConfiguration? = nil, nextBarButtonConfiguration: FawryPaySDK_AVL.FPIQBarButtonItemConfiguration? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addDoneOnKeyboardWithTarget(_ target: Swift.AnyObject?, action: ObjectiveC.Selector, shouldShowPlaceholder: Swift.Bool = false, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addDoneOnKeyboardWithTarget(_ target: Swift.AnyObject?, action: ObjectiveC.Selector, titleText: Swift.String?, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addRightButtonOnKeyboardWithImage(_ image: UIKit.UIImage, target: Swift.AnyObject?, action: ObjectiveC.Selector, shouldShowPlaceholder: Swift.Bool = false, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addRightButtonOnKeyboardWithImage(_ image: UIKit.UIImage, target: Swift.AnyObject?, action: ObjectiveC.Selector, titleText: Swift.String?, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addRightButtonOnKeyboardWithText(_ text: Swift.String, target: Swift.AnyObject?, action: ObjectiveC.Selector, shouldShowPlaceholder: Swift.Bool = false, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addRightButtonOnKeyboardWithText(_ text: Swift.String, target: Swift.AnyObject?, action: ObjectiveC.Selector, titleText: Swift.String?, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addCancelDoneOnKeyboardWithTarget(_ target: Swift.AnyObject?, cancelAction: ObjectiveC.Selector, doneAction: ObjectiveC.Selector, shouldShowPlaceholder: Swift.Bool = false, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addRightLeftOnKeyboardWithTarget(_ target: Swift.AnyObject?, leftButtonTitle: Swift.String, rightButtonTitle: Swift.String, leftButtonAction: ObjectiveC.Selector, rightButtonAction: ObjectiveC.Selector, shouldShowPlaceholder: Swift.Bool = false, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addRightLeftOnKeyboardWithTarget(_ target: Swift.AnyObject?, leftButtonImage: UIKit.UIImage, rightButtonImage: UIKit.UIImage, leftButtonAction: ObjectiveC.Selector, rightButtonAction: ObjectiveC.Selector, shouldShowPlaceholder: Swift.Bool = false, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addCancelDoneOnKeyboardWithTarget(_ target: Swift.AnyObject?, cancelAction: ObjectiveC.Selector, doneAction: ObjectiveC.Selector, titleText: Swift.String?, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addRightLeftOnKeyboardWithTarget(_ target: Swift.AnyObject?, leftButtonTitle: Swift.String, rightButtonTitle: Swift.String, leftButtonAction: ObjectiveC.Selector, rightButtonAction: ObjectiveC.Selector, titleText: Swift.String?, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addRightLeftOnKeyboardWithTarget(_ target: Swift.AnyObject?, leftButtonImage: UIKit.UIImage, rightButtonImage: UIKit.UIImage, leftButtonAction: ObjectiveC.Selector, rightButtonAction: ObjectiveC.Selector, titleText: Swift.String?, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addPreviousNextDoneOnKeyboardWithTarget(_ target: Swift.AnyObject?, previousAction: ObjectiveC.Selector, nextAction: ObjectiveC.Selector, doneAction: ObjectiveC.Selector, shouldShowPlaceholder: Swift.Bool = false, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addPreviousNextRightOnKeyboardWithTarget(_ target: Swift.AnyObject?, rightButtonImage: UIKit.UIImage, previousAction: ObjectiveC.Selector, nextAction: ObjectiveC.Selector, rightButtonAction: ObjectiveC.Selector, shouldShowPlaceholder: Swift.Bool = false, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addPreviousNextRightOnKeyboardWithTarget(_ target: Swift.AnyObject?, rightButtonTitle: Swift.String, previousAction: ObjectiveC.Selector, nextAction: ObjectiveC.Selector, rightButtonAction: ObjectiveC.Selector, shouldShowPlaceholder: Swift.Bool = false, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addPreviousNextDoneOnKeyboardWithTarget(_ target: Swift.AnyObject?, previousAction: ObjectiveC.Selector, nextAction: ObjectiveC.Selector, doneAction: ObjectiveC.Selector, titleText: Swift.String?, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addPreviousNextRightOnKeyboardWithTarget(_ target: Swift.AnyObject?, rightButtonImage: UIKit.UIImage, previousAction: ObjectiveC.Selector, nextAction: ObjectiveC.Selector, rightButtonAction: ObjectiveC.Selector, titleText: Swift.String?, titleAccessibilityLabel: Swift.String? = nil)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func addPreviousNextRightOnKeyboardWithTarget(_ target: Swift.AnyObject?, rightButtonTitle: Swift.String, previousAction: ObjectiveC.Selector, nextAction: ObjectiveC.Selector, rightButtonAction: ObjectiveC.Selector, titleText: Swift.String?, titleAccessibilityLabel: Swift.String? = nil)
 }
 @objc public protocol OTPFieldViewDelegate {
   @objc func shouldBecomeFirstResponderForOTP(otpTextFieldIndex index: Swift.Int) -> Swift.Bool
@@ -217,28 +138,6 @@ public class AVLInfo : Swift.Codable {
 public struct FPRadioButtonColor {
   public init(active: UIKit.UIColor, inactive: UIKit.UIColor)
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOSApplicationExtension, unavailable)
-@objc @_Concurrency.MainActor(unsafe) open class FPIQTitleBarButtonItem : FawryPaySDK_AVL.FPIQBarButtonItem {
-  @objc @_Concurrency.MainActor(unsafe) open var titleFont: UIKit.UIFont? {
-    @objc get
-    @objc set
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var title: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @_Concurrency.MainActor(unsafe) open var titleColor: UIKit.UIColor? {
-    @objc get
-    @objc set
-  }
-  @objc @_Concurrency.MainActor(unsafe) open var selectableTitleColor: UIKit.UIColor? {
-    @objc get
-    @objc set
-  }
-  @objc @_Concurrency.MainActor(unsafe) convenience public init(title: Swift.String?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc deinit
-}
 public class FPRadioCheckboxBaseContainer<T> where T : FawryPaySDK_AVL.FPRadioCheckboxBaseButton {
   public typealias Kind = T
   public init(_ buttons: [T] = [])
@@ -275,45 +174,6 @@ public class FPRadioCheckboxBaseContainer<T> where T : FawryPaySDK_AVL.FPRadioCh
 }
 extension FawryPaySDK_AVL.BaseViewController : UIKit.UIGestureRecognizerDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
-}
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOSApplicationExtension, unavailable)
-@objc @_Concurrency.MainActor(unsafe) open class FPIQToolbar : UIKit.UIToolbar, UIKit.UIInputViewAudioFeedback {
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc @_Concurrency.MainActor(unsafe) open var previousBarButton: FawryPaySDK_AVL.FPIQBarButtonItem {
-    @objc get
-    @objc set(newValue)
-  }
-  @objc @_Concurrency.MainActor(unsafe) open var nextBarButton: FawryPaySDK_AVL.FPIQBarButtonItem {
-    @objc get
-    @objc set(newValue)
-  }
-  @objc @_Concurrency.MainActor(unsafe) open var titleBarButton: FawryPaySDK_AVL.FPIQTitleBarButtonItem {
-    @objc get
-    @objc set(newValue)
-  }
-  @objc @_Concurrency.MainActor(unsafe) open var doneBarButton: FawryPaySDK_AVL.FPIQBarButtonItem {
-    @objc get
-    @objc set(newValue)
-  }
-  @objc @_Concurrency.MainActor(unsafe) open var fixedSpaceBarButton: FawryPaySDK_AVL.FPIQBarButtonItem {
-    @objc get
-    @objc set(newValue)
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func sizeThatFits(_ size: CoreFoundation.CGSize) -> CoreFoundation.CGSize
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor! {
-    @objc get
-    @objc set
-  }
-  @_Concurrency.MainActor(unsafe) @objc open var enableInputClicksWhenVisible: Swift.Bool {
-    @objc get
-  }
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @available(iOSApplicationExtension, unavailable)
-@objc @_Concurrency.MainActor(unsafe) open class FPIQPreviousNextView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
 }
 public enum MWalletOption {
   case Notification, QRCode
@@ -892,28 +752,6 @@ public enum ErrorMessages : Swift.String {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
-}
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOSApplicationExtension, unavailable)
-@objc final public class FPIQKeyboardManager : ObjectiveC.NSObject {
-  @objc public static let shared: FawryPaySDK_AVL.FPIQKeyboardManager
-  @objc final public var enable: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  @objc final public var keyboardDistanceFromTextField: CoreFoundation.CGFloat
-  @objc final public var enableAutoToolbar: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  @objc final public var shouldToolbarUsesTextFieldTintColor: Swift.Bool
-  @objc final public var toolbarTintColor: UIKit.UIColor?
-  @objc final public var toolbarBarTintColor: UIKit.UIColor?
-  @objc deinit
-}
-@available(iOSApplicationExtension, unavailable)
-extension FawryPaySDK_AVL.FPIQKeyboardManager : UIKit.UIGestureRecognizerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc final public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc final public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldReceive touch: UIKit.UITouch) -> Swift.Bool
 }
 @_inheritsConvenienceInitializers public class FPRadioButtonContainer : FawryPaySDK_AVL.FPRadioCheckboxBaseContainer<FawryPaySDK_AVL.FPRadioButton> {
   weak public var delegate: (any FawryPaySDK_AVL.FPRadioButtonDelegate)? {
