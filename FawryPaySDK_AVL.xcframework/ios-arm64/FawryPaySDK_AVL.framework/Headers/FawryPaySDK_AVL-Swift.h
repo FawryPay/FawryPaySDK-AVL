@@ -443,7 +443,6 @@ SWIFT_CLASS("_TtC15FawryPaySDK_AVL19LaunchCustomerModel")
 @end
 
 
-
 SWIFT_CLASS("_TtC15FawryPaySDK_AVL12OTPFieldView")
 @interface OTPFieldView : UIView
 - (void)awakeFromNib;
@@ -565,15 +564,6 @@ SWIFT_CLASS("_TtC15FawryPaySDK_AVL21ThemeStyleFawryPaySDK")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
-
-
-
-
-
-
-
-
 
 
 
