@@ -36777,14 +36777,14 @@
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager+Debug.swift",
       "kind": "IntegerLiteral",
-      "offset": 4984,
+      "offset": 4992,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager+Debug.swift",
       "kind": "IntegerLiteral",
-      "offset": 5059,
+      "offset": 5067,
       "length": 1,
       "value": "0"
     },
@@ -43322,14 +43322,14 @@
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "StringLiteral",
-      "offset": 2699,
+      "offset": 2701,
       "length": 9,
       "value": "\"Enabled\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "StringLiteral",
-      "offset": 2847,
+      "offset": 2851,
       "length": 10,
       "value": "\"Disabled\""
     },
@@ -43343,119 +43343,119 @@
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3047,
+      "offset": 3051,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "StringLiteral",
-      "offset": 3437,
+      "offset": 3441,
       "length": 5,
       "value": "\"Yes\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "StringLiteral",
-      "offset": 3445,
+      "offset": 3449,
       "length": 4,
       "value": "\"NO\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "StringLiteral",
-      "offset": 3471,
+      "offset": 3475,
       "length": 37,
       "value": "\"enableAutoToolbar: \""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "StringLiteral",
-      "offset": 3507,
+      "offset": 3511,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3198,
+      "offset": 3202,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4253,
+      "offset": 4257,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6166,
+      "offset": 6170,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6708,
+      "offset": 6712,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "StringLiteral",
-      "offset": 7284,
+      "offset": 7288,
       "length": 5,
       "value": "\"Yes\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "StringLiteral",
-      "offset": 7292,
+      "offset": 7296,
       "length": 4,
       "value": "\"NO\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "StringLiteral",
-      "offset": 7318,
+      "offset": 7322,
       "length": 45,
       "value": "\"shouldResignOnTouchOutside: \""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "StringLiteral",
-      "offset": 7362,
+      "offset": 7366,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7109,
+      "offset": 7113,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7794,
+      "offset": 7800,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8790,
+      "offset": 8796,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQKeyboardManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8995,
+      "offset": 9001,
       "length": 5,
       "value": "false"
     },
@@ -43854,28 +43854,28 @@
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQTextView\/FPIQTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3151,
+      "offset": 3157,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQTextView\/FPIQTextView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3318,
+      "offset": 3324,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQTextView\/FPIQTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3489,
+      "offset": 3495,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/External Libraries\/FPIQKeyboardManagerSwift\/FPIQTextView\/FPIQTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5319,
+      "offset": 5335,
       "length": 2,
       "value": "12"
     },
