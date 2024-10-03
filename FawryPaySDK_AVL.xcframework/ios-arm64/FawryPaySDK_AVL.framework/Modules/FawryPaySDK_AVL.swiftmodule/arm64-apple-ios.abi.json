@@ -9795,16 +9795,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "IQKeyboardManagerSwift",
-        "printedName": "IQKeyboardManagerSwift",
-        "declKind": "Import",
-        "moduleName": "FawryPaySDK_AVL",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "FawrySDKConfigurationManager",
         "printedName": "FawrySDKConfigurationManager",
@@ -37498,21 +37488,21 @@
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Helper Class\/Config Manager\/FawrySDKConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 983,
+      "offset": 985,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Helper Class\/Config Manager\/FawrySDKConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1103,
+      "offset": 1105,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/FawryPaySDK-AVL\/Helper Class\/Config Manager\/FawrySDKConfigurationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1231,
+      "offset": 1233,
       "length": 5,
       "value": "false"
     },

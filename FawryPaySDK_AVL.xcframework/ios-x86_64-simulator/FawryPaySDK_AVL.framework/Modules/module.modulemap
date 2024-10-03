@@ -1,0 +1,4 @@
+framework module FawryPaySDK_AVL {
+  header "FawryPaySDK_AVL-Swift.h"
+  requires objc
+}
