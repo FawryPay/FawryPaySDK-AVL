@@ -274,7 +274,7 @@
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		r6gUezxBYNmYN4u4BLuoXigyJ8M=
+		nJRi/nEB9fzRcAS7mtoKmf8wrqg=
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -290,11 +290,11 @@
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Vf5/xvwKA7ywX+r61+MCZJ3JXkw=
+		6RQeOjUDJZ51Fh/WQIk9MM0a8cc=
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		r6gUezxBYNmYN4u4BLuoXigyJ8M=
+		nJRi/nEB9fzRcAS7mtoKmf8wrqg=
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -310,7 +310,7 @@
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		izQX7UWm/L5i4E8TP5fE0M3eiIc=
+		wx1hJXXdeIzgv5jS/Mmo0bVkjGA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1003,7 +1003,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ru05sDEkS4HWalMopW3VC1fM25oQISe2d4sc7GyCB9M=
+			DyLlYFW+qXeJvFXF6GdD9JtMbAFvKL0C6RQzi5wBuQE=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1031,14 +1031,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZkYrvxjq9QzD++M9b6jUbbcQxYIObgiV3atLw2qOouk=
+			x+L+95cg35TVlfflfdXswSDphOWl3Vkewju/1v9nfic=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ru05sDEkS4HWalMopW3VC1fM25oQISe2d4sc7GyCB9M=
+			DyLlYFW+qXeJvFXF6GdD9JtMbAFvKL0C6RQzi5wBuQE=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1066,7 +1066,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZRSlVShveKWPfQwG8J06LxTIqzoDMRxCxbWd4nPEf5U=
+			9DEY62DnsyikAg/izOld+MCy9ncHy0mohafrXo8s9mg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
