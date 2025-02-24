@@ -15834,43 +15834,6 @@
           },
           {
             "kind": "Var",
-            "name": "userDidCancel3Ds",
-            "printedName": "userDidCancel3Ds",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FawryPaySDK_AVL.FawrySDKStatusCode.Type) -> FawryPaySDK_AVL.FawrySDKStatusCode",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FawrySDKStatusCode",
-                    "printedName": "FawryPaySDK_AVL.FawrySDKStatusCode",
-                    "usr": "s:15FawryPaySDK_AVL0A13SDKStatusCodeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FawryPaySDK_AVL.FawrySDKStatusCode.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FawrySDKStatusCode",
-                        "printedName": "FawryPaySDK_AVL.FawrySDKStatusCode",
-                        "usr": "s:15FawryPaySDK_AVL0A13SDKStatusCodeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:15FawryPaySDK_AVL0A13SDKStatusCodeO16userDidCancel3DsyA2CmF",
-            "mangledName": "$s15FawryPaySDK_AVL0A13SDKStatusCodeO16userDidCancel3DsyA2CmF",
-            "moduleName": "FawryPaySDK_AVL"
-          },
-          {
-            "kind": "Var",
             "name": "missingParamAppLanguage",
             "printedName": "missingParamAppLanguage",
             "children": [
@@ -16681,13 +16644,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FawryPaySDK_AVL"
       },
       {
         "kind": "Import",
@@ -38039,182 +37995,168 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2304,
-      "length": 3,
-      "value": "206"
-    },
-    {
-      "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2342,
+      "offset": 2310,
       "length": 5,
       "value": "13106"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2378,
+      "offset": 2346,
       "length": 5,
       "value": "13101"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2420,
+      "offset": 2388,
       "length": 5,
       "value": "13118"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2462,
+      "offset": 2430,
       "length": 5,
       "value": "13102"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2514,
+      "offset": 2482,
       "length": 5,
       "value": "13107"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2594,
+      "offset": 2562,
       "length": 5,
       "value": "13109"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2630,
+      "offset": 2598,
       "length": 5,
       "value": "13110"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2670,
+      "offset": 2638,
       "length": 5,
       "value": "13111"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2713,
+      "offset": 2681,
       "length": 5,
       "value": "13112"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2746,
+      "offset": 2714,
       "length": 5,
       "value": "13113"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2785,
+      "offset": 2753,
       "length": 5,
       "value": "13114"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2826,
+      "offset": 2794,
       "length": 5,
       "value": "13115"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2866,
+      "offset": 2834,
       "length": 5,
       "value": "13116"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2912,
+      "offset": 2880,
       "length": 5,
       "value": "13117"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2953,
+      "offset": 2921,
       "length": 5,
       "value": "13104"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2991,
+      "offset": 2959,
       "length": 5,
       "value": "13105"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 3031,
+      "offset": 2999,
       "length": 5,
       "value": "13119"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3108,
+      "offset": 3076,
       "length": 27,
       "value": "\"User Cancelled the Launch\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3159,
+      "offset": 3127,
       "length": 19,
       "value": "\"User Clicked Back\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3207,
-      "length": 24,
-      "value": "\"User Cancelled the 3DS\""
-    },
-    {
-      "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
-      "kind": "StringLiteral",
-      "offset": 3262,
+      "offset": 3177,
       "length": 32,
       "value": "\"Requested Controller Not Found\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3328,
+      "offset": 3243,
       "length": 35,
       "value": "\"Paramter missing: Customer mobile\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3399,
+      "offset": 3314,
       "length": 37,
       "value": "\"Paramter missing: Customer Password\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3468,
+      "offset": 3383,
       "length": 33,
       "value": "\"Paramter missing: Merchant Code\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3526,
+      "offset": 3441,
       "length": 25,
       "value": "\"Paramter missing: Token\""
     },
