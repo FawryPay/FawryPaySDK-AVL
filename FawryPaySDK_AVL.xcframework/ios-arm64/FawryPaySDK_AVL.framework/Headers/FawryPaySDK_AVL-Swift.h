@@ -350,7 +350,6 @@ SWIFT_CLASS("_TtC15FawryPaySDK_AVL27BaseComponentViewController")
 
 
 
-
 SWIFT_CLASS("_TtC15FawryPaySDK_AVL24ChargePaymentParamsModel")
 @interface ChargePaymentParamsModel : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -380,37 +379,6 @@ typedef SWIFT_ENUM(NSInteger, DisplayType, open) {
   DisplayTypeDiamond = 3,
   DisplayTypeUnderlinedBottom = 4,
 };
-
-
-IB_DESIGNABLE
-SWIFT_CLASS("_TtC15FawryPaySDK_AVL25FPRadioCheckboxBaseButton")
-@interface FPRadioCheckboxBaseButton : UIButton
-/// Keep the track of Selection and deselction
-@property (nonatomic) BOOL isOn;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC15FawryPaySDK_AVL13FPRadioButton")
-@interface FPRadioButton : FPRadioCheckboxBaseButton
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-/// View container that hold all RadioButton available as first immediate subview only
-SWIFT_CLASS("_TtC15FawryPaySDK_AVL26FPRadioButtonContainerView")
-@interface FPRadioButtonContainerView : UIView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-/// Ading subview in button conatiner if it is RadioButton
-- (void)didAddSubview:(UIView * _Nonnull)subview;
-/// Removing RadioButton from container
-- (void)willRemoveSubview:(UIView * _Nonnull)subview;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
-
-
 
 
 SWIFT_CLASS("_TtC15FawryPaySDK_AVL10FawryError")
@@ -469,6 +437,7 @@ SWIFT_PROTOCOL("_TtP15FawryPaySDK_AVL20OTPFieldViewDelegate_")
 - (BOOL)hasEnteredAllOTPWithHasEnteredAll:(BOOL)hasEnteredAll SWIFT_WARN_UNUSED_RESULT;
 @end
 
+@class UIButton;
 @class UILabel;
 
 SWIFT_CLASS("_TtC15FawryPaySDK_AVL28PaymentDetailsViewController")
@@ -568,8 +537,6 @@ SWIFT_CLASS("_TtC15FawryPaySDK_AVL21ThemeStyleFawryPaySDK")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
-
 
 
 
