@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FawryPaySDK_AVL
+// swift-module-flags: -target arm64-apple-ios12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FawryPaySDK_AVL
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import Alamofire
@@ -401,6 +401,7 @@ public enum FawrySDKStatusCode : Swift.Int {
   case paramterMissing
   case contollerNotFound
   case userDidBack
+  case userDidCancel3Ds
   case missingParamAppLanguage
   case missingParambaseUrl
   case missingParamCustomerModel
@@ -688,7 +689,19 @@ public enum ErrorMessages : Swift.String {
   public var networkError: FawryPaySDK_AVL.NetworkError?
   public var usedBTC: Swift.Int?
   public var refNumber: Swift.String?
-  public init(errorCode: Swift.Int?, message: Swift.String?, networkError: FawryPaySDK_AVL.NetworkError?, usedBTC: Swift.Int? = .none, refNumber: Swift.String? = .none)
+  public var avlErrorData: FawryPaySDK_AVL.AVLErrorData?
+  public init(errorCode: Swift.Int?, message: Swift.String?, networkError: FawryPaySDK_AVL.NetworkError?, usedBTC: Swift.Int? = .none, refNumber: Swift.String? = .none, avlErrorData: FawryPaySDK_AVL.AVLErrorData? = nil)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class AVLErrorData : Swift.Codable {
+  public var amount: Swift.Double?
+  public var reasonOfTransfer: Swift.String?
+  public var dateAndTime: Swift.Int64?
+  public var refNumber: Swift.String?
+  public var fees: Swift.Double?
+  public init(amount: Swift.Double? = nil, reasonOfTransfer: Swift.String? = nil, dateAndTime: Swift.Int64? = nil, refNumber: Swift.String? = nil, fees: Swift.Double? = nil)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws

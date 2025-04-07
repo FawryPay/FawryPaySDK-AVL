@@ -15834,6 +15834,43 @@
           },
           {
             "kind": "Var",
+            "name": "userDidCancel3Ds",
+            "printedName": "userDidCancel3Ds",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FawryPaySDK_AVL.FawrySDKStatusCode.Type) -> FawryPaySDK_AVL.FawrySDKStatusCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FawrySDKStatusCode",
+                    "printedName": "FawryPaySDK_AVL.FawrySDKStatusCode",
+                    "usr": "s:15FawryPaySDK_AVL0A13SDKStatusCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FawryPaySDK_AVL.FawrySDKStatusCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FawrySDKStatusCode",
+                        "printedName": "FawryPaySDK_AVL.FawrySDKStatusCode",
+                        "usr": "s:15FawryPaySDK_AVL0A13SDKStatusCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15FawryPaySDK_AVL0A13SDKStatusCodeO16userDidCancel3DsyA2CmF",
+            "mangledName": "$s15FawryPaySDK_AVL0A13SDKStatusCodeO16userDidCancel3DsyA2CmF",
+            "moduleName": "FawryPaySDK_AVL"
+          },
+          {
+            "kind": "Var",
             "name": "missingParamAppLanguage",
             "printedName": "missingParamAppLanguage",
             "children": [
@@ -16644,6 +16681,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK_AVL"
       },
       {
         "kind": "Import",
@@ -29170,9 +29214,119 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "avlErrorData",
+            "printedName": "avlErrorData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FawryPaySDK_AVL.AVLErrorData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVLErrorData",
+                    "printedName": "FawryPaySDK_AVL.AVLErrorData",
+                    "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FawryPaySDK_AVL0A5ErrorC03avlE4DataAA08AVLErrorG0CSgvp",
+            "mangledName": "$s15FawryPaySDK_AVL0A5ErrorC03avlE4DataAA08AVLErrorG0CSgvp",
+            "moduleName": "FawryPaySDK_AVL",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryPaySDK_AVL.AVLErrorData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVLErrorData",
+                        "printedName": "FawryPaySDK_AVL.AVLErrorData",
+                        "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL0A5ErrorC03avlE4DataAA08AVLErrorG0CSgvg",
+                "mangledName": "$s15FawryPaySDK_AVL0A5ErrorC03avlE4DataAA08AVLErrorG0CSgvg",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryPaySDK_AVL.AVLErrorData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVLErrorData",
+                        "printedName": "FawryPaySDK_AVL.AVLErrorData",
+                        "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL0A5ErrorC03avlE4DataAA08AVLErrorG0CSgvs",
+                "mangledName": "$s15FawryPaySDK_AVL0A5ErrorC03avlE4DataAA08AVLErrorG0CSgvs",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL0A5ErrorC03avlE4DataAA08AVLErrorG0CSgvM",
+                "mangledName": "$s15FawryPaySDK_AVL0A5ErrorC03avlE4DataAA08AVLErrorG0CSgvM",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(errorCode:message:networkError:usedBTC:refNumber:)",
+            "printedName": "init(errorCode:message:networkError:usedBTC:refNumber:avlErrorData:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -29251,11 +29405,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FawryPaySDK_AVL.AVLErrorData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVLErrorData",
+                    "printedName": "FawryPaySDK_AVL.AVLErrorData",
+                    "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15FawryPaySDK_AVL0A5ErrorC9errorCode7message07networkE07usedBTC9refNumberACSiSg_SSSgAA07NetworkE0OSgAiJtcfc",
-            "mangledName": "$s15FawryPaySDK_AVL0A5ErrorC9errorCode7message07networkE07usedBTC9refNumberACSiSg_SSSgAA07NetworkE0OSgAiJtcfc",
+            "usr": "s:15FawryPaySDK_AVL0A5ErrorC9errorCode7message07networkE07usedBTC9refNumber03avlE4DataACSiSg_SSSgAA07NetworkE0OSgAjkA08AVLErrorO0CSgtcfc",
+            "mangledName": "$s15FawryPaySDK_AVL0A5ErrorC9errorCode7message07networkE07usedBTC9refNumber03avlE4DataACSiSg_SSSgAA07NetworkE0OSgAjkA08AVLErrorO0CSgtcfc",
             "moduleName": "FawryPaySDK_AVL",
             "declAttributes": [
               "AccessControl"
@@ -29454,6 +29623,750 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AVLErrorData",
+        "printedName": "AVLErrorData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC6amountSdSgvp",
+            "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC6amountSdSgvp",
+            "moduleName": "FawryPaySDK_AVL",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC6amountSdSgvg",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC6amountSdSgvg",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC6amountSdSgvs",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC6amountSdSgvs",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC6amountSdSgvM",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC6amountSdSgvM",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reasonOfTransfer",
+            "printedName": "reasonOfTransfer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC16reasonOfTransferSSSgvp",
+            "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC16reasonOfTransferSSSgvp",
+            "moduleName": "FawryPaySDK_AVL",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC16reasonOfTransferSSSgvg",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC16reasonOfTransferSSSgvg",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC16reasonOfTransferSSSgvs",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC16reasonOfTransferSSSgvs",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC16reasonOfTransferSSSgvM",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC16reasonOfTransferSSSgvM",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dateAndTime",
+            "printedName": "dateAndTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC11dateAndTimes5Int64VSgvp",
+            "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC11dateAndTimes5Int64VSgvp",
+            "moduleName": "FawryPaySDK_AVL",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC11dateAndTimes5Int64VSgvg",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC11dateAndTimes5Int64VSgvg",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC11dateAndTimes5Int64VSgvs",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC11dateAndTimes5Int64VSgvs",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC11dateAndTimes5Int64VSgvM",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC11dateAndTimes5Int64VSgvM",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "refNumber",
+            "printedName": "refNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC9refNumberSSSgvp",
+            "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC9refNumberSSSgvp",
+            "moduleName": "FawryPaySDK_AVL",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC9refNumberSSSgvg",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC9refNumberSSSgvg",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC9refNumberSSSgvs",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC9refNumberSSSgvs",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC9refNumberSSSgvM",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC9refNumberSSSgvM",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fees",
+            "printedName": "fees",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC4feesSdSgvp",
+            "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC4feesSdSgvp",
+            "moduleName": "FawryPaySDK_AVL",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC4feesSdSgvg",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC4feesSdSgvg",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC4feesSdSgvs",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC4feesSdSgvs",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC4feesSdSgvM",
+                "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC4feesSdSgvM",
+                "moduleName": "FawryPaySDK_AVL",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(amount:reasonOfTransfer:dateAndTime:refNumber:fees:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AVLErrorData",
+                "printedName": "FawryPaySDK_AVL.AVLErrorData",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC6amount16reasonOfTransfer11dateAndTime9refNumber4feesACSdSg_SSSgs5Int64VSgAjItcfc",
+            "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC6amount16reasonOfTransfer11dateAndTime9refNumber4feesACSdSg_SSSgs5Int64VSgAjItcfc",
+            "moduleName": "FawryPaySDK_AVL",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AVLErrorData",
+                "printedName": "FawryPaySDK_AVL.AVLErrorData",
+                "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FawryPaySDK_AVL",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC6encode2toys7Encoder_p_tKF",
+            "moduleName": "FawryPaySDK_AVL",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15FawryPaySDK_AVL12AVLErrorDataC",
+        "mangledName": "$s15FawryPaySDK_AVL12AVLErrorDataC",
+        "moduleName": "FawryPaySDK_AVL",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -37995,168 +38908,182 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2310,
+      "offset": 2304,
+      "length": 3,
+      "value": "206"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2342,
       "length": 5,
       "value": "13106"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2346,
+      "offset": 2378,
       "length": 5,
       "value": "13101"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2388,
+      "offset": 2420,
       "length": 5,
       "value": "13118"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2430,
+      "offset": 2462,
       "length": 5,
       "value": "13102"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2482,
+      "offset": 2514,
       "length": 5,
       "value": "13107"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2562,
+      "offset": 2594,
       "length": 5,
       "value": "13109"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2598,
+      "offset": 2630,
       "length": 5,
       "value": "13110"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2638,
+      "offset": 2670,
       "length": 5,
       "value": "13111"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2681,
+      "offset": 2713,
       "length": 5,
       "value": "13112"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2714,
+      "offset": 2746,
       "length": 5,
       "value": "13113"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2753,
+      "offset": 2785,
       "length": 5,
       "value": "13114"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2794,
+      "offset": 2826,
       "length": 5,
       "value": "13115"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2834,
+      "offset": 2866,
       "length": 5,
       "value": "13116"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2880,
+      "offset": 2912,
       "length": 5,
       "value": "13117"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2921,
+      "offset": 2953,
       "length": 5,
       "value": "13104"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2959,
+      "offset": 2991,
       "length": 5,
       "value": "13105"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2999,
+      "offset": 3031,
       "length": 5,
       "value": "13119"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3076,
+      "offset": 3108,
       "length": 27,
       "value": "\"User Cancelled the Launch\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3127,
+      "offset": 3159,
       "length": 19,
       "value": "\"User Clicked Back\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3177,
+      "offset": 3207,
+      "length": 24,
+      "value": "\"User Cancelled the 3DS\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 3262,
       "length": 32,
       "value": "\"Requested Controller Not Found\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3243,
+      "offset": 3328,
       "length": 35,
       "value": "\"Paramter missing: Customer mobile\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3314,
+      "offset": 3399,
       "length": 37,
       "value": "\"Paramter missing: Customer Password\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3383,
+      "offset": 3468,
       "length": 33,
       "value": "\"Paramter missing: Merchant Code\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/AVLNEW\/AVL-WE\/fawrypay\/FawryPaySDK\/Core\/Enums\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3441,
+      "offset": 3526,
       "length": 25,
       "value": "\"Paramter missing: Token\""
     },
