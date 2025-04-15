@@ -701,7 +701,8 @@ public class AVLErrorData : Swift.Codable {
   public var dateAndTime: Swift.Int64?
   public var refNumber: Swift.String?
   public var fees: Swift.Double?
-  public init(amount: Swift.Double? = nil, reasonOfTransfer: Swift.String? = nil, dateAndTime: Swift.Int64? = nil, refNumber: Swift.String? = nil, fees: Swift.Double? = nil)
+  public var cardLastFourDigits: Swift.String?
+  public init(amount: Swift.Double? = nil, reasonOfTransfer: Swift.String? = nil, dateAndTime: Swift.Int64? = nil, refNumber: Swift.String? = nil, cardLastFourDigits: Swift.String? = nil, fees: Swift.Double? = nil)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws

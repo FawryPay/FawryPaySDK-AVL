@@ -274,11 +274,11 @@
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+2V4utJcpmFQlADjASmlml4O/oc=
+		cYy7SPGFokmcgXicyr6og0beNDE=
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ycm3iPH4lP2uq01lM8N5hH93mgw=
+		9ZCGtO+AndqgjMfOWnN0a3vsi0E=
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -286,19 +286,19 @@
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ycm3iPH4lP2uq01lM8N5hH93mgw=
+		9ZCGtO+AndqgjMfOWnN0a3vsi0E=
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pahJsONo0x142fjBKXJOWH1riEQ=
+		AeKml6Z1xyapK+y/l63CFwut7cc=
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+2V4utJcpmFQlADjASmlml4O/oc=
+		cYy7SPGFokmcgXicyr6og0beNDE=
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bb5XMBCcH5tGlG0HU+hSKQfuVqE=
+		XryMns7p7ShN+ihSmzOPrkFUg4c=
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -306,11 +306,11 @@
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bb5XMBCcH5tGlG0HU+hSKQfuVqE=
+		XryMns7p7ShN+ihSmzOPrkFUg4c=
 		</data>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6xzJ8ym1rIN6ncJE88f7xIlDDMg=
+		sP6Y29RjUbrw/DAiB125rWP29q4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1003,14 +1003,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UoKRJf2ZusD/r2gcvQJ7/g4eznqo8SBXJuEJJOzkdYw=
+			UTt2MQkCQTRb7KViaIvQ34nX5P2fGFv4NUwICcOYQRY=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3bADfN36IybU2J22zg0H+uF9Wdmqk3Bvisez1RXq1IQ=
+			5RiMy8YwUQ7XMUx0AlJJB6ipiX3dCQj9pfZPH7cPV24=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -1024,28 +1024,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3bADfN36IybU2J22zg0H+uF9Wdmqk3Bvisez1RXq1IQ=
+			5RiMy8YwUQ7XMUx0AlJJB6ipiX3dCQj9pfZPH7cPV24=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YDHfkYDtA222jp+XL30I2qv5j4O3tTScKP4VukSDTnM=
+			9Ukz0TjTA+ia/cdwcOjIUML3+2z+WejMpMVSx9YKS/g=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UoKRJf2ZusD/r2gcvQJ7/g4eznqo8SBXJuEJJOzkdYw=
+			UTt2MQkCQTRb7KViaIvQ34nX5P2fGFv4NUwICcOYQRY=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q8D8490IxAb3laE+hSLn1X9dyEapkWcebQu4uxuGU4w=
+			IxdVDWcPUvLnT1Xqjxw2C14tv0Vs4J2mEhoy0CWH1mE=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1059,14 +1059,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q8D8490IxAb3laE+hSLn1X9dyEapkWcebQu4uxuGU4w=
+			IxdVDWcPUvLnT1Xqjxw2C14tv0Vs4J2mEhoy0CWH1mE=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK_AVL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kSZPtkMFETq+xZrieev1bisOnUUdKY0/fkTHBNPl97Q=
+			pcMKDtwhIqvQftCWolF0K7WXW4gc/nSXJdPj07JTSIA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
